@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -10,8 +11,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/연구소$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/연구소$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/연구소.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/연구소.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/실패율.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/실패율.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/실패율.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/실패율.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -87,23 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/오픈채팅방.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="836">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/실패율.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret lean-forward="true" selection-end-line="95" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#272#288#0" expanded="true" />
+                <element signature="e#959#965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10811">
+            <state relative-caret-position="10773">
               <caret line="611" selection-start-line="611" selection-end-line="611" />
               <folding>
                 <element signature="e#23628#23629#0" expanded="true" />
@@ -200,7 +201,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-960" />
+    <option name="x" value="-1920" />
     <option name="y" value="-257" />
     <option name="width" value="960" />
     <option name="height" value="1057" />
@@ -281,13 +282,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="오픈채팅방" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="오픈채팅방" />
-      <module name="algorithm.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="실패율" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="실패율" />
       <module name="algorithm.main" />
@@ -297,6 +291,20 @@
     </configuration>
     <configuration name="N진수게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="N진수게임" />
+      <module name="algorithm.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="오픈채팅방" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="오픈채팅방" />
+      <module name="algorithm.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실패율" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="실패율" />
       <module name="algorithm.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -347,7 +355,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.실패율" />
-        <item itemvalue="Application.오픈채팅방" />
         <item itemvalue="Application.N진수게임" />
         <item itemvalue="Application.짝지어제거하기" />
       </list>
@@ -371,12 +378,13 @@
       <workItem from="1599631409317" duration="5754000" />
       <workItem from="1599710212926" duration="374000" />
       <workItem from="1599820278228" duration="4518000" />
-      <workItem from="1599828197615" duration="4018000" />
+      <workItem from="1599828197615" duration="6223000" />
+      <workItem from="1599836565593" duration="3514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58692000" />
+    <option name="totallyTimeSpent" value="64411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,10 +396,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-960" y="-257" width="960" height="1057" extended-state="0" />
+    <frame x="-1920" y="-257" width="960" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49175823" visible="true" weight="0.26321587" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49175823" weight="0.12794432" />
       <window_info id="Structure" order="1" sideWeight="0.5007133" side_tool="true" weight="0.26585016" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,9 +407,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5082418" side_tool="true" weight="0.3350144" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32898173" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25264272" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.46723044" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875264" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25264272" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46723044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.32898173" />
@@ -482,15 +490,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/실패율.java</url>
-          <line>37</line>
+          <line>89</line>
           <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/실패율.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="47" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -558,6 +560,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/오픈채팅방.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15143">
@@ -578,7 +587,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10811">
+        <state relative-caret-position="10773">
           <caret line="611" selection-start-line="611" selection-end-line="611" />
           <folding>
             <element signature="e#23628#23629#0" expanded="true" />
@@ -604,19 +613,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/실패율.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <caret lean-forward="true" selection-end-line="95" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#272#288#0" expanded="true" />
+            <element signature="e#959#965#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/오픈채팅방.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
