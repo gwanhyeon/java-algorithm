@@ -1,4 +1,5 @@
 public class 체육복 {
+    /* 미풀이 */
     public static void main(String[] args) {
 
         int n = 5;
