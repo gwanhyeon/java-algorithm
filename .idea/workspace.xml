@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/멀쩡한사각형.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -11,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/시저암호.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/시저암호.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/숫자카드_재귀.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/숫자카드_재귀.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,15 +72,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/파일명정렬.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="59" selection-start-line="58" selection-start-column="5" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/완주하지못한선수.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -134,14 +125,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/숫자카드_재귀.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="185">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/멀쩡한사각형.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -229,10 +229,11 @@
         <option value="$PROJECT_DIR$/src/main/java/시저암호.java" />
         <option value="$PROJECT_DIR$/src/main/java/숫자카드.java" />
         <option value="$PROJECT_DIR$/src/main/java/숫자카드_재귀.java" />
+        <option value="$PROJECT_DIR$/src/main/java/멀쩡한사각형.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="720" />
     <option name="y" value="23" />
     <option name="width" value="720" />
@@ -306,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.숫자카드_재귀">
+  <component name="RunManager" selected="Application.멀쩡한사각형">
     <configuration name="수박수박수박수박수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="수박수박수박수박수" />
       <module name="algorithm.main" />
@@ -321,8 +322,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="소수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="소수찾기" />
+    <configuration name="멀쩡한사각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="멀쩡한사각형" />
       <module name="algorithm.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -435,11 +436,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.멀쩡한사각형" />
         <item itemvalue="Application.숫자카드_재귀" />
         <item itemvalue="Application.숫자카드" />
         <item itemvalue="Application.시저암호" />
         <item itemvalue="Application.수박수박수박수박수" />
-        <item itemvalue="Application.소수찾기" />
       </list>
     </recent_temporary>
   </component>
@@ -464,12 +465,12 @@
       <workItem from="1599828197615" duration="6223000" />
       <workItem from="1599836565593" duration="37125000" />
       <workItem from="1600273172530" duration="10388000" />
-      <workItem from="1600487669337" duration="21576000" />
+      <workItem from="1600487669337" duration="23039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129986000" />
+    <option name="totallyTimeSpent" value="131449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,10 +482,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="23" width="720" height="877" extended-state="1" />
-    <editor active="true" />
+    <frame x="720" y="23" width="720" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49175823" weight="0.75149703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49175823" visible="true" weight="0.75149703" />
       <window_info id="Structure" order="1" sideWeight="0.5007133" side_tool="true" weight="0.26585016" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,7 +493,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5082418" side_tool="true" weight="0.3350144" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32875264" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31462142" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31462142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28720626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -952,11 +952,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/숫자카드_재귀.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="185">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/멀쩡한사각형.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
