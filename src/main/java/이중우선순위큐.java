@@ -25,11 +25,9 @@ public class 이중우선순위큐 {
                 min_heap.add(Integer.parseInt(value));
             }else {
                 // min delete
-
                     if (Integer.parseInt(value) == -1 && !min_heap.isEmpty()) {
                         min_heap.poll();
                         max_heap.remove();
-
                         //q.remove(q.size() - 1);
                         //System.out.println(q.peek());
                     }// max delete
