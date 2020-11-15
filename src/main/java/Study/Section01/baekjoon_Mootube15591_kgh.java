@@ -1,9 +1,9 @@
 /*
 풀이시간: 초과...
+https://travelbeeee.tistory.com/458
  */
 
 package Study;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

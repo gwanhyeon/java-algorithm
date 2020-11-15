@@ -9,7 +9,7 @@ import java.util.*;
 public class leetcode_ValidParentheses_kgh {
     public static void main(String[] args) {
         System.out.println(isValidStack("([)]"));
-        System.out.println(isValidHash("((()))"));
+        //System.out.println(isValidHash("((()))"));
     }
     /* Stack으로 푸는 방식 */
     static boolean isValidStack(String s) {
@@ -53,29 +53,4 @@ public class leetcode_ValidParentheses_kgh {
 
         return tf;
     }
-    /* HashMap으로 푸는 방식 */
-    static boolean isValidHash(String s) {
-
-        HashMap<Character, Character> hm = new HashMap<>();
-        hm.put(')', '(');
-        hm.put(']', '[');
-        hm.put('}', '{');
-        boolean tf = false;
-        Stack<Character> s1 = new Stack<>();
-        for(int i=0; i<s.length(); i++){
-            if(hm.containsKey(s.charAt(i))){
-                if (s1.isEmpty() || s1.pop() != hm.get(s.charAt(i))) {
-                    return false;
-                }else{
-                    //System.out.print(s.charAt(i));
-                    s1.push(s.charAt(i));
-                }
-            }
-        }
-        return s.isEmpty();
-
-    }
 }
-
-
-
