@@ -1,6 +1,6 @@
 package 스터디.스터디_GN;
 
-public class 동전_그리디알고리즘 {
+public class 동전_그리디 {
     public static void main(String[] args) {
         solution(1260,new int[]{500,100,50,10});
 

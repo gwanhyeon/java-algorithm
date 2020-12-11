@@ -11,7 +11,7 @@ import java.util.*;
 *  결국 가장 큰값 + 가장큰값의 다음값을 바탕으로 최댓값을 구할 수 있는 문제이기때문에 그리디 알고리즘이라고 할 수 있다.
 *  카운트한값이 m(몇개를 더하는값)과 같다면 해당 루프를 빠져나와 종료 후 Sum을 출력한다.
  */
-public class 큰수의법칙_그리디알고리즘 {
+public class 큰수의법칙_그리디 {
     public static void main(String[] args) throws IOException {
        solution(5,8,3,new int[]{2,4,5,4,6});
        solution(5,7,2,new int[]{3,4,3,4,3});
