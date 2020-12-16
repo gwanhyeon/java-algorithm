@@ -1,4 +1,4 @@
-package 스터디_SNU.Section03;
+package 스터디.스터디_SNU.Section03;
 
 /* 연속되는 문자열 찾기
 1. 풀이 시간 체크: 50분
@@ -16,7 +16,6 @@ O(N start +N end) => O(2N) 상수를 무시하므로 => O(N)
 */
 import java.io.IOException;
 import java.util.HashSet;
-
 
 public class leetcode_Longest_Substring_Without_Repeating_Characters_kgh {
     public static void main(String[] args) throws IOException {

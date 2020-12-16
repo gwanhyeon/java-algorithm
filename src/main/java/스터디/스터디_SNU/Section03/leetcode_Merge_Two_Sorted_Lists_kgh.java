@@ -1,4 +1,4 @@
-package 스터디_SNU.Section03;
+package 스터디.스터디_SNU.Section03;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -15,7 +15,7 @@ import java.util.Comparator;
 값을 정렬시킨후 Collections.reverse() 함수를 사용하여 answer에 맞게 답 노출
 
 #3 시간복잡도
-최대 O(l1 + l2), 노드수 range [0,50]이므로 충분히 O(N) 처리 가
+최대 O(l1 + l2), 노드수 range [0,50]이므로 충분히 O(N) 처리 가능.
  */
 class ListNode{
     int val;
