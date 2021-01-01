@@ -36,7 +36,6 @@ public class 연구소 {
             return;
         }
 
-
         for(int i=idx; i<n * m; i++){
             int x = i / m;
             int y = i % m;
@@ -48,7 +47,7 @@ public class 연구소 {
             map[x][y] = 0;
         }
     }
-    // 맵 카
+    // 맵 카피
     static void copyMapFunc() {
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
@@ -83,8 +82,6 @@ public class 연구소 {
         }
         return safe;
     }
-
-
     /*
     4 6
     0 0 0 0 0 0
@@ -110,7 +107,6 @@ public class 연구소 {
             }
         }
         wallDfs(0,0);
-
         System.out.println(ans);
     }
 
