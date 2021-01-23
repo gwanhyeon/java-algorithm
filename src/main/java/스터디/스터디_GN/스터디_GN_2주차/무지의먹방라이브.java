@@ -1,6 +1,8 @@
 package 스터디.스터디_GN_2주차;
 
 
+import java.util.Stack;
+
 /**
  * 1. 소요시간: 약 40분
  * 2. 컴퓨팅사고
@@ -61,12 +63,9 @@ public class 무지의먹방라이브 {
             }
             // 음식의 개수 만큼 진행
             for(int i=0; i<food_times.length; i++){
-
-
                 if(cnt > k){
                     break;
                 }
-
                 if(food_times[i] == 0){
                     zeroCnt++;
                     continue;

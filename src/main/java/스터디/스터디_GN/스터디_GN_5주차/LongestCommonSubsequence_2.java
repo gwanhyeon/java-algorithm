@@ -3,7 +3,7 @@ package 스터디.스터디_GN_5주차;
 /**
  * Longest Common Subsequence
  */
-public class LCS_LENGTH_2 {
+public class LongestCommonSubsequence_2 {
     public static void main(String[] args) {
 
         String aa = "BDCABA";
@@ -23,7 +23,7 @@ public class LCS_LENGTH_2 {
                 }
                 // 두 문자가 같지 않다면
                 else {
-                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);            // left top 값비교해서 더 bigger한값을 넣어준다.
+                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);            // left top 값비교해서 더 큰값을 넣어준다.
                 }
             }
         }

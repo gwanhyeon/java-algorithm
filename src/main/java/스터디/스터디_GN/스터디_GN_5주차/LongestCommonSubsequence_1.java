@@ -6,7 +6,7 @@ package 스터디.스터디_GN_5주차;
  * https://www.youtube.com/watch?v=P-mMvhfJhu8&feature=youtu.be
  */
 
-public class LCS_LENGTH_1 {
+public class LongestCommonSubsequence_1 {
 
     public static void main(String[] args) {
 
