@@ -1,4 +1,4 @@
-package Math;
+package 코딩테스트.Math;
 
 public class 소수찾기 {
     static boolean[] check = new boolean[1000001];

@@ -1,6 +1,4 @@
-package String;
-
-import com.sun.org.apache.xpath.internal.operations.Bool;
+package 코딩테스트.String;
 
 public class 문자열내p와y의개수 {
     public static void main(String[] args) {

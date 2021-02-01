@@ -1,17 +1,15 @@
-package String;
+package 코딩테스트.String;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class 문자열내마음대로정렬하기 {
     /* ArrayList를 사용한 풀이
-    public static void main(String[] args) {
-        String[] strings = {"sun", "bed", "car"};
+    public static void main(유형별.String[] args) {
+        유형별.String[] strings = {"sun", "bed", "car"};
         int n = 1;
-        String[] answer;
-        ArrayList<String> arr = new ArrayList<>();
+        유형별.String[] answer;
+        ArrayList<유형별.String> arr = new ArrayList<>();
 
         for (int i = 0; i < strings.length; i++){
             arr.add(strings[i].charAt(n) + strings[i]);
@@ -20,7 +18,7 @@ public class 문자열내마음대로정렬하기 {
         Collections.sort(arr);
 
 
-        answer = new String[arr.size()];
+        answer = new 유형별.String[arr.size()];
 
         for(int i=0; i<arr.size(); i++){
             answer[i] = arr.get(i).substring(1,arr.get(i).length());

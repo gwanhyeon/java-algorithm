@@ -1,3 +1,5 @@
+package 코딩테스트.Graph;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -33,7 +35,7 @@ public class DFSBFS_LIST1260 {
             A.get(x).add(y);
             A.get(y).add(x);
         }
-        //자식이 여러개라면 노드 번호가 작은 것 먼저 방문하므로 오름차순으로 정렬을 해줬다.
+        //자식이 여러개라면 노드 번호가 작은 것 먼저 방문하므로 오름차순으로 정렬
         for(int i=0; i<=n; i++) {
             Collections.sort(A.get(i));
         }

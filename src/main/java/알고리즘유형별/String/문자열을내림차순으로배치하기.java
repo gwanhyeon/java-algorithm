@@ -1,4 +1,4 @@
-package String;
+package 코딩테스트.String;
 
 import java.util.Arrays;
 public class 문자열을내림차순으로배치하기 {

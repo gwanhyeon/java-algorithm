@@ -1,9 +1,7 @@
-package dataStructure;
+package 코딩테스트.Sort;
 
 import java.util.Collections;
-import java.util.LinkedList;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 /* 유사문제 프로그래머스 배달 PriorityQueue Collections.reverseOrder()를 하게 되면 가장 큰 값으로부터 우선순위를 정해서 진행한다.  */
 
