@@ -1,4 +1,4 @@
-package 스터디_SNU.Section02;
+package 스터디.스터디_SNU.Section02;
 import java.util.*;
 /*
 #1 풀이 시간
@@ -15,6 +15,7 @@ import java.util.*;
 O(dirs.length() + Hashset add()1) 즉, 상수를 무시하므로 O(N)
  */
 public class programmers_방문길이_kgh {
+
 
     static int[][] dir = {{0,1}, {0,-1}, {1,0}, {-1,0}};
     static int[][] check;

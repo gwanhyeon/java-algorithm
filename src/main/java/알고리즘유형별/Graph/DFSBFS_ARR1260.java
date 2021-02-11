@@ -1,4 +1,4 @@
-package 코딩테스트.Graph;
+package 알고리즘유형별.Graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;

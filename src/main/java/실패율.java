@@ -57,7 +57,6 @@ public class 실패율 {
             stage_clear = 0;
             stage_arrive = 0;
             for (int j = 0; j < stages.length; j++) {
-
                 // 스테이지 도달했지만 클리어하지 못한 플레이어 수
                 if (stages[j] == i) {
                     stage_clear++;
@@ -66,7 +65,6 @@ public class 실패율 {
                 if (stages[j] >= i) {
                     stage_arrive++;
                 }
-
             }
             if (stage_clear == 0) {
                 arr.add(new Pair(0, i));

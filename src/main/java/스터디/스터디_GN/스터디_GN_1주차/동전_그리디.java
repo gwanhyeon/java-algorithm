@@ -1,4 +1,4 @@
-package 스터디.스터디_GN_1주차;
+package 스터디.스터디_GN.스터디_GN_1주차;
 
 public class 동전_그리디 {
     public static void main(String[] args) {

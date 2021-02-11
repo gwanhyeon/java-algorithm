@@ -32,7 +32,6 @@ public class 숫자카드 {
         }
 
         for (Integer value : answer) {
-
             System.out.print(value + " ");
 
         }
@@ -52,7 +51,6 @@ public class 숫자카드 {
             }else {
                 return mid;
             }
-
         }
         return -1;
     }
@@ -60,7 +58,7 @@ public class 숫자카드 {
 }
 
     /* HashSet 문제
-    public static void main(String[] args) throws IOException {
+    public static void main(유형별.String[] args) throws IOException {
         ArrayList<Integer> arr = new ArrayList<>();
         HashSet<Integer> s = new HashSet<Integer>();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -30,6 +30,8 @@ public class 빗물14719 {
                 max_hight_idx = x;
             }
         }
+        //3 12
+        //0 1 0 2 1 0 1 3 2 1 2 1
 
         int left_sum = 0;
         int right_sum = 0;

@@ -1,4 +1,4 @@
-package 스터디.스터디_GN.스터디_GN_6주차;
+package 알고리즘템플릿;
 
 
 import java.io.BufferedReader;
@@ -42,7 +42,7 @@ OUTPUT:
 2
 4
  */
-public class 다익스트라_응용 {
+public class 다익스트라_응용_한점에서다른점_최단경로_제한높을때 {
     static int n;
     static int e;
     static int startNode;

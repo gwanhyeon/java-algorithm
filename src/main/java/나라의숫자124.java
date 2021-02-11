@@ -18,7 +18,7 @@ public class 나라의숫자124 {
             answer.append(Integer.toString(res));
         }
 
-//        String answer = "";
+//        유형별.String answer = "";
 //        int tmp = 0;
 //        int div = 0;
 //        if(n % 3 == 1){

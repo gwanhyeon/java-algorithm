@@ -1,4 +1,4 @@
-package 스터디.스터디_GN.스터디_GN_6주차;
+package 알고리즘템플릿;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ OUTPUT:
 5 9 0 4
 7 11 2 0
  */
-public class 플로이드워셜알고리즘 {
+public class 플로이드워셜_여러점에서_다른점들까지_최단경로 {
 
     static final int INF = (int)1e9;
     static int n,e;

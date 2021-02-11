@@ -1,4 +1,4 @@
-package 코딩테스트.String;
+package 알고리즘유형별.String;
 
 import java.util.Arrays;
 import java.util.Comparator;

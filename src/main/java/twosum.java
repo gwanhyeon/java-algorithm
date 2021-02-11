@@ -2,6 +2,8 @@ import java.util.ArrayList;
 
 public class twosum {
     static ArrayList<Integer> answer;
+    static ArrayList<String> a = new ArrayList<>();
+
     public static void main(String[] args) {
         int[] nums= {3,2,4};
         boolean[] check = new boolean[1000001];
@@ -13,6 +15,7 @@ public class twosum {
         for(int i=0; i<answer.size(); i++){
             value[i] = answer.get(i);
         }
+
     }
 
     private static void dfs(int idx,int cnt,int sum, boolean[] check, int[] nums, int target) {

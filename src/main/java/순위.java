@@ -21,7 +21,7 @@ public class 순위 {
         int min = check[0];
 //
 //        for(int i=0; i<check.length; i++){
-//            max = Math.max(max, check[i]);
+//            max = 유형별.Math.max(max, check[i]);
 //        }
         System.out.println(max);
     }

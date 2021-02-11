@@ -6,10 +6,10 @@ import java.util.StringTokenizer;
 public class 이중우선순위큐 {
     public static void main(String[] args) {
 
-        //String[] operations = {"I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"};
+        //유형별.String[] operations = {"I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"};
         String[] operations = {"I 4", "I 3", "I 2", "I 1", "D 1", "D 1", "D -1", "D -1", "I 5", "I 6"};
-        //String[] operations = {"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"};
-        //String[] operations = {"I 16","D 1"};
+        //유형별.String[] operations = {"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"};
+        //유형별.String[] operations = {"I 16","D 1"};
         PriorityQueue<Integer> max_heap = new PriorityQueue<>(Collections.reverseOrder());
         PriorityQueue<Integer> min_heap = new PriorityQueue<>();
         int[] answer = new int[2];

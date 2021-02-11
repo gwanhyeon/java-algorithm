@@ -1,4 +1,4 @@
-package 스터디.스터디_GN_5주차;
+package 스터디.스터디_GN.스터디_GN_5주차;
 
 /**
  * Longest Common Sequence 공통부분문자열의 길이를 구하는 경우

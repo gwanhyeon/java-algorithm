@@ -1,4 +1,4 @@
-package 월간코드챌린지;
+package 기출문제.월간코드챌린지;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package 카카오2019개발자_겨울인턴십;
+package 기출문제.카카오2019개발자_겨울인턴십;
 
 import java.util.*;
 

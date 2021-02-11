@@ -1,4 +1,4 @@
-package 스터디.스터디_GN_3주차;
+package 스터디.스터디_GN.스터디_GN_3주차;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

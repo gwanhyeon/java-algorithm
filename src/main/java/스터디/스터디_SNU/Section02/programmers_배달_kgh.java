@@ -1,4 +1,4 @@
-package 스터디_SNU.Section02;
+package 스터디.스터디_SNU.Section02;
 
 import java.util.ArrayList;
 import java.util.Arrays;

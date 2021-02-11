@@ -44,13 +44,11 @@ public class leetcode_Longest_Palindromic_Substring_kgh {
         if(start >= end){
             return 1;
         }
-
         // 메모이제이
         if(dp[start][end] != 0){
             return dp[start][end];
         }
         int res = -1;
-
         // 시작점과 끝점이 같은 문자열일 경우 b[abba]b
         if(s.charAt(start) == s.charAt(end)){
             res = validationPalindromic(s,start+1, end-1);

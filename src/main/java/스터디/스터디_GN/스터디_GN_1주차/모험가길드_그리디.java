@@ -1,9 +1,8 @@
-package 스터디.스터디_GN_1주차;
+package 스터디.스터디_GN.스터디_GN_1주차;
 
 // comment 복습 201227
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.stream.Collectors;
 
 /**

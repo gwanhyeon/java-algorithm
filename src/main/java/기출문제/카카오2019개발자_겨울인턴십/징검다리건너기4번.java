@@ -1,12 +1,5 @@
-package 카카오2019개발자_겨울인턴십;
-
-
-/*
-무슨 말일까?
- */
+package 기출문제.카카오2019개발자_겨울인턴십;
 class 징검다리건너기4번{
-
-
     public static void main(String[] args) {
         int res= solution(new int[]{2, 4, 5, 3, 2, 1, 4, 2, 5, 1}, 3);
         System.out.println(res);

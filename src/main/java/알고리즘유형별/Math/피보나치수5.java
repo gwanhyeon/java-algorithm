@@ -1,4 +1,4 @@
-package 코딩테스트.Math;
+package 알고리즘유형별.Math;
 
 import java.util.*;
 public class 피보나치수5 {

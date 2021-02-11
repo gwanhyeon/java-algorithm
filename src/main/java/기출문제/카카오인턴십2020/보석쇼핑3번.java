@@ -1,4 +1,4 @@
-package 카카오인턴십2020;
+package 기출문제.카카오인턴십2020;
 
 import java.util.*;
 /* 투포인트 알고리즘 */
@@ -10,6 +10,11 @@ public class 보석쇼핑3번 {
     static int startPoint = 0;
     static int len = Integer.MAX_VALUE;
 
+    /**
+     *  * https://blog.naver.com/kks227/220795165570
+     *  * https://programmers.co.kr/questions/11940료
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(solution(new String[]{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"}));
     }
@@ -22,7 +27,6 @@ public class 보석쇼핑3번 {
         }
 
         int start = 0;
-
         for(int i=0; i<gems.length; i++){
 
             if(!hm.containsKey(gems[i])){

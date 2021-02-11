@@ -16,7 +16,7 @@ public class TermProject9466 {
     static ArrayList<ArrayList<Integer>> A;
     static int[] check;
     static int cnt = 0;
-    public static void main(String[] args) throws IOException {
+    public static void main(유형별.String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -100,17 +100,18 @@ public class TermProject9466 {
             Arrays.fill(check,0);
         }
     }
+
+    // A (학생번호, 선택번호), check(체크정점, 방문순서), startVertex (시작지점, 시작정점)
     private static int dfs(int x,int cnt, int step) {
         if(check[x] != 0){
             if(step != startVertex[x]){
                 return 0;
             }
             //System.out.println(check[x]);
-            return cnt-check[x];
+            return cnt-check[x];        // 현재까지 온 cnt순서에서 현재 방문한 방문순서를 뺴준다.
         }
-
-        check[x] = cnt;
-        startVertex[x] = step;
+        check[x] = cnt;             // 방문 순서를넣어준다.
+        startVertex[x] = step;      // 시작정점을 넣어준다. 4764
         return dfs(A[x], cnt+1, step);
     }
 }

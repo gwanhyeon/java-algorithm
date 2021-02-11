@@ -1,4 +1,4 @@
-package 스터디.스터디_GN.스터디_GN_6주차;
+package 알고리즘템플릿;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -44,7 +44,7 @@ OUTPUT:
 2
 4
  */
-public class 다익스트라_기본 {
+public class 다익스트라_한점에서다른점_최단경로_제한낮을때 {
     static final int INF = (int)1e9;       // (int) 1e9
     static int n;       // 노드의개수
     static int e;       // 간선의 개수

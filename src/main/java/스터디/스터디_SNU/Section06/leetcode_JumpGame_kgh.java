@@ -14,9 +14,7 @@ public class leetcode_JumpGame_kgh {
         System.out.println(canJump(new int[]{0}));
     }
     static boolean canJump(int[] nums) {
-
         int maxIdx = 0;
-
         for(int i=0; i< nums.length-1; i++){
             // maxIndex가 자기 자신 이하를 가리키고 그 보다 크면 해당범위를 벗어나게 됩니다.
             // 그리고  nums[i]인 점프력이 0이라면 앞으로 가지 못 합니다.

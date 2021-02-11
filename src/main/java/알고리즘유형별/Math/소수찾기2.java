@@ -1,4 +1,4 @@
-package 코딩테스트.Math;
+package 알고리즘유형별.Math;
 
 public class 소수찾기2 {
 

@@ -8,16 +8,16 @@ import java.util.StringTokenizer;
 public class 반복수열2331 {
 
     static int[] check;
-    static ArrayList<ArrayList<Integer>> AdjList = new ArrayList<>();
-    public static void main(String[] args) throws IOException {
+    static ArrayList<ArrayList<Integer>> 유형별.Graph.AdjList = new ArrayList<>();
+    public static void main(유형별.String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String A = "";
+        유형별.String A = "";
         int P = 0;
         for(int i=0; i<=1000000; i++){
-            AdjList.add(new ArrayList<>());
+            유형별.Graph.AdjList.add(new ArrayList<>());
         }
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        A = String.valueOf(Integer.parseInt(st.nextToken()));
+        A = 유형별.String.valueOf(Integer.parseInt(st.nextToken()));
         P = Integer.parseInt(st.nextToken());
         check = new int[1000000];
         dfs(A, P);
@@ -30,15 +30,15 @@ public class 반복수열2331 {
         }
         System.out.println(answer-1);
     }
-    private static void dfs(String A, int P) {
+    private static void dfs(유형별.String A, int P) {
         int sum = 0;
         int x = A.charAt(0)-'0';
 
         for(int i=1; i<A.length(); i++){
             int y = A.charAt(i)-'0';
-            sum += Math.pow(A.charAt(i)-'0', P);
-            AdjList.get(x).add(y);
-            AdjList.get(y).add(x);
+            sum += 유형별.Math.pow(A.charAt(i)-'0', P);
+            유형별.Graph.AdjList.get(x).add(y);
+            유형별.Graph.AdjList.get(y).add(x);
         }
         if(check[x] == 0){
             check[x] = 1;
@@ -46,8 +46,8 @@ public class 반복수열2331 {
             check[x] = check[x] + 1;
         }
 
-        for(int i=0; i<AdjList.get(x).size(); i++){
-            int y = AdjList.get(x).get(i);
+        for(int i=0; i<유형별.Graph.AdjList.get(x).size(); i++){
+            int y = 유형별.Graph.AdjList.get(x).get(i);
 
             if(check[y] == 0) {
                 check[y] = 1;
@@ -92,6 +92,7 @@ D[1] = A
 D[n] = D[n-1]
 
 A = 57 P = 2
+
 
 5^2 + 7^2 = 25+49 = 74
 49 + 16  = 65

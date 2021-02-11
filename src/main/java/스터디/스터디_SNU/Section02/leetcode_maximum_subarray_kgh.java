@@ -1,4 +1,4 @@
-package 스터디_SNU.Section02;
+package 스터디.스터디_SNU.Section02;
 
 import java.util.Arrays;
 
@@ -34,7 +34,6 @@ public class leetcode_maximum_subarray_kgh {
             int sum = 0;
             for(int j=i; j<nums.length; j++){
                 sum += nums[j];
-
                 if(sum > max){
                     max = sum;
                 }

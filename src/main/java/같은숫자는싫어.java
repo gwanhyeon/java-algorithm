@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class 같은숫자는싫어 {
     /*
-    public static void main(String[] args) {
+    public static void main(유형별.String[] args) {
 
         int[] arr = {1,1,3,3,0,1,1};
 

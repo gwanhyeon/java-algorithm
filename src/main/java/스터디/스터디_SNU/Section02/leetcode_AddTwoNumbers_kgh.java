@@ -1,4 +1,4 @@
-package 스터디_SNU.Section02;
+package 스터디.스터디_SNU.Section02;
 /*
 #1 풀이 시간
 35분
@@ -94,7 +94,5 @@ public class leetcode_AddTwoNumbers_kgh {
             System.out.println(answer.val);
             answer = answer.next;
         }
-
-
     }
 }

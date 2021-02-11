@@ -20,9 +20,10 @@ public class 동전011047 {
         }
         int cnt = 0;
         for(int i=value.length-1; i >= 0; i--){
-            System.out.println(cnt);
-            System.out.println(k);
+
+//            System.out.println(k);
             cnt += (k / value[i]);
+            System.out.println(cnt);
             k = (k % value[i]);
         }
         System.out.println(cnt);

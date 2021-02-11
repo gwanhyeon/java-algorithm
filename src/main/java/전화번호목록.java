@@ -6,7 +6,7 @@ public class 전화번호목록 {
         HashSet<String> hs = new HashSet<>();
 
         boolean answer = true;
-        //String[] phone_book = {"119", "97674223", "1195524421"};
+        //유형별.String[] phone_book = {"119", "97674223", "1195524421"};
         String[] phone_book = {"123","456","789"};
         hs.add(phone_book[0]);
         Arrays.sort(phone_book);

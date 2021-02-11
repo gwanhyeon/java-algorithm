@@ -10,7 +10,7 @@ public class N진수게임 {
         int m = 2;      // 게임에 참가하는 인원
         int p = 1;      // 튜브의 순서
 
-        int num = 1;
+        int num = 12;
         while(arr.length() -1 < t * m){
             StringBuilder arr_tmp = new StringBuilder();
             int quot = num; // 몫
@@ -52,9 +52,9 @@ public class N진수게임 {
     static int m = 2;
     static int p = 1;
     static char[] arr = new char[10001];
-    static String answer = "";
+    static 유형별.String answer = "";
     static int cnt = 0;
-    public static void main(String[] args) {
+    public static void main(유형별.String[] args) {
         nToConvertBinary();
 //        int size = cnt;
 //        size = size - p;
@@ -67,7 +67,7 @@ public class N진수게임 {
     }
 
     private static void nToConvertBinary() {
-        String str = "";
+        유형별.String str = "";
         for(int i=0; i<=1000; i++){
             int num = i;
             if(num == 0){

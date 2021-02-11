@@ -1,84 +1,54 @@
-package 스터디_SNU.Section02;
-
+package 스터디.스터디_SNU.Section02;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * 1. 문제 풀이 시간: 30분
+ * 2. 가능한 괄호조합 찾기 문제(dfs + valication check)
+ * 3. 시간복잡도 O(N+N) 재귀호출 + 타당성 체크 O(N) => O(3N) => O(N)
+ */
+
 public class leetcode_Generate_Parentheses_kgh {
-    static char[] arr;
-    static int[] check;
-    static HashSet<String> hs = new HashSet<>();
-    static ArrayList<Character> v = new ArrayList<>();
-    static List<String> answer = new ArrayList<>();
+    static List<String> answer;
+
     public static void main(String[] args) {
-        generateParenthesis(1);
-        //System.out.println(validString("(()())"));
+        System.out.println(generateParenthesis(1));
+        answer.clear();
+        System.out.println(generateParenthesis(3));
     }
+
     static List<String> generateParenthesis(int n) {
-        arr = new char[n*2];
-        check = new int[n*2];
-        for(int i=0; i<n*2; i++){
-            if(i < n){
-                arr[i] = '(';
-            }else {
-                arr[i] = ')';
-            }
-        }
-        dfs(0, n);
-        for(String s : hs){
-            answer.add(s);
-            System.out.println(s);
-        }
+        answer = new ArrayList<>();
+        dfs(0, n, "");
         return answer;
-
     }
-
-    private static void dfs(int cnt, int n) {
-
+    private static void dfs(int cnt, int n, String str) {
         if(cnt == n*2){
-            StringBuilder str = new StringBuilder();
-            for(int i=0; i<v.size(); i++) {
-                str.append(v.get(i));
-            }
-            if(validString(str.toString())){
-                hs.add(str.toString());
+            if(validString(str)){
+                answer.add(str);
             }
             return;
         }
-
-        for(int i=0; i<n*2; i++){
-            if(check[i] == 1){
-                continue;
-            }
-            check[i] = 1;
-            v.add(arr[i]);
-            dfs(cnt+1, n);
-            v.remove(v.size()-1);
-            check[i] = 0;
-        }
+        dfs(cnt+1, n, str+"(");
+        dfs(cnt+1, n, str+")");
     }
 
-    private static boolean validString(String sb) {
-        Stack<Character> s = new Stack();
-        boolean tf = false;
-        for(int i=0; i<sb.length(); i++){
-            if(sb.charAt(i) == '('){
-                s.add(sb.charAt(i));
+    private static boolean validString(String str) {
+        Stack<Character> stack = new Stack<>();
+        boolean tf = true;
+        for(int i=0; i<str.length(); i++){
+            if(str.charAt(i) == '('){
+                stack.add(str.charAt(i));
             }
-            if(sb.charAt(i) == ')'){
-                if(!s.isEmpty() && s.peek() == '('){
-                    s.pop();
-                    tf = true;
+            if(str.charAt(i) == ')'){
+                if(!stack.isEmpty() && stack.peek() == '('){
+                    stack.pop();
                 }else {
-                    tf = false;
-                    break;
+                    return false;
                 }
             }
         }
-        if(s.size() > 0){
-            tf = false;
-        }
-        return tf;
+        return stack.isEmpty() ? true : false;
     }
 }

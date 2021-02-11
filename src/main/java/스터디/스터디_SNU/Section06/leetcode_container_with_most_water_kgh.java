@@ -17,28 +17,29 @@ import java.util.*;
 
 public class leetcode_container_with_most_water_kgh {
     public static void main(String[] args) {
-        maxArea(new int[]{1,8,6,2,5,4,8,3,7});
-        maxArea(new int[]{1,2,1});
-        maxArea(new int[]{1,2,4,3});
-        maxArea (new int[]{1,1});
-        maxArea(new int[]{4,3,2,1,4});
-        maxArea(new int[]{2,1});
-        maxArea(new int[]{1,0,0,0,0,0,0,2,2});
+        maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7});
+        maxArea(new int[]{1, 2, 1});
+        maxArea(new int[]{1, 2, 4, 3});
+        maxArea(new int[]{1, 1});
+        maxArea(new int[]{4, 3, 2, 1, 4});
+        maxArea(new int[]{2, 1});
+        maxArea(new int[]{1, 0, 0, 0, 0, 0, 0, 2, 2});
     }
 
 
-    static int maxArea(int[] height){
+    static int maxArea(int[] height) {
         int start = 0;
-        int end = height.length-1;
+        int end = height.length - 1;
         int maxValue = 0;
-        while(end - start > 0){
+        while (start <= end) {
             int waterVolume;
             int minValue = 0;
-            if(height[start] > height[end]){
+            // 8 00000 3 4
+            if (height[start] > height[end]) {
                 minValue = height[end];
                 waterVolume = minValue * (end - start);
                 end--;
-            }else {
+            } else {
                 minValue = height[start];
                 waterVolume = minValue * (end - start);
                 start++;
@@ -48,6 +49,7 @@ public class leetcode_container_with_most_water_kgh {
         System.out.println(maxValue);
         return maxValue;
     }
+
     // 오답: 가장 큰 맥시멈 값을 기준으로 반반나누어서 시작 ~ 맥시멈값, 끝값 ~ 맥시멈값까지 처리를 진행하였는데 거치지 못한 테스트케이스가 있다고 생각이든다.
     static int maxArea1(int[] height) {
 
@@ -55,41 +57,38 @@ public class leetcode_container_with_most_water_kgh {
         int answer = 0;
 
         List<Integer> maxList = new ArrayList<>();
-        if(height.length <= 2){
+        if (height.length <= 2) {
             answer = Math.min(height[0], height[1]);
             System.out.println(answer);
             return answer;
         }
         int maxValue = 0;
-        for(int i=0; i<height.length; i++){
+        for (int i = 0; i < height.length; i++) {
             maxValue = Math.max(height[i], maxValue);
         }
-        for(int i=0; i<height.length; i++){
-            if(height[i] == maxValue) maxList.add(i);
+        for (int i = 0; i < height.length; i++) {
+            if (height[i] == maxValue) maxList.add(i);
         }
-        for(int i=0; i<maxList.size(); i++){
+        for (int i = 0; i < maxList.size(); i++) {
             int maxIdx = maxList.get(i);
             int sum1 = 0;
             int sum2 = 0;
-            for(int j=0; j<maxIdx; j++){
-                if(height[j] != height[maxIdx]) {
+            for (int j = 0; j < maxIdx; j++) {
+                if (height[j] != height[maxIdx]) {
                     sum1 = (maxIdx - j) * height[j];
                     answer = Math.max(sum1, answer);
                 }
             }
-            for(int k=height.length-1; k >= maxIdx; k--){
-                if(height[k] != height[maxIdx]) {
+            for (int k = height.length - 1; k >= maxIdx; k--) {
+                if (height[k] != height[maxIdx]) {
                     sum2 = (height.length - 1 - k) * height[k];
                     answer = Math.max(sum2, answer);
                 }
             }
-            if(sum1 == sum2) answer = sum1+sum2;
+            if (sum1 == sum2) answer = sum1 + sum2;
         }
         System.out.println(answer);
         return 1;
     }
-
-
-
-
 }
+

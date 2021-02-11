@@ -1,4 +1,4 @@
-package 스터디.스터디_SNU.Section03;
+package 스터디_SNU.Section03;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Stack;
 1. 풀이 시간 체크: 25분
 2. 컴퓨팅사고:
 재귀함수를 통해서 만들수 있는 (, ) 의 조합의 경우의 수를 모두 구해줍니다. 그리고 basement 조건은 n*2의 만큼까지 진행하여 올바른 괄호인지를 validString()함수를 이용하여 처리합니다.
-3. 시간복잡도
-validString함수 - O(N), 재귀함수 O(N*2 + N*2) 두번호출하므로 O(4N) => 즉, 시간복잡도 O(N)?
+3. 자신이 생각하는 시간복잡도
+validString함수 - O(N), 재귀함수 O(N*2 + N*2) 두번호출하므로 (, ) => 즉, 시간복잡도 O(N)?
 */
 
 public class leetcode_Generate_Parentheses_recursive_kgh {

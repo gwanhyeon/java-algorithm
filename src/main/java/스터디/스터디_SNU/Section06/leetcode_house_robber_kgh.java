@@ -38,6 +38,7 @@ public class leetcode_house_robber_kgh {
             return nums[0];
         }
         // [2,1] 값이 2개 올 경우 더 큰 값을 nums[1]에 넣어주기, nums[nums.length-1]값을 반환하기 때문에
+        // System.out.println(rob(new int[]{ 1,3,1,3,100 }));
         nums[1] = Math.max(nums[0],nums[1]);
         for(int i=2; i<nums.length; i++){
             nums[i] = Math.max(nums[i-2] + nums[i], nums[i-1]);

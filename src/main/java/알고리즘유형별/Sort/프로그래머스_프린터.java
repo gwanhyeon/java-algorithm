@@ -1,4 +1,4 @@
-package 코딩테스트.Sort;
+package 알고리즘유형별.Sort;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

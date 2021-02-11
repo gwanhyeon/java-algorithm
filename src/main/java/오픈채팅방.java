@@ -64,7 +64,7 @@ public class 오픈채팅방 {
 //        int cnt = 0;
 //        //KeySet() 활용
 //
-//        for(String j : command_map.keySet()) { //저장된 key값 확인
+//        for(유형별.String j : command_map.keySet()) { //저장된 key값 확인
 //            if(j.equals("Enter")){
 //                System.out.println(map.get(j) + "님이 들어왔습니다.");
 //            }else if(j.equals("Leave")){
