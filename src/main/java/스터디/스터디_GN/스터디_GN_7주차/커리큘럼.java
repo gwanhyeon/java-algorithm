@@ -14,32 +14,29 @@ import java.util.*;
 3 3 -1
  */
 public class 커리큘럼 {
-    static int v,e;
+    static int v;
     static int[] indegree = new int[501];
     static List<List<Integer>> graph = new ArrayList<>();
     static int[] times = new int[501];
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        v = Integer.parseInt(br.readLine());
 
-        v = Integer.parseInt(st.nextToken());
-        e = Integer.parseInt(st.nextToken());
         for(int i=0; i<=v; i++){
             graph.add(new ArrayList<>());
         }
 
-        for(int i=0; i<e; i++){
-            st = new StringTokenizer(br.readLine(), " ");
-            int x = Integer.parseInt(st.nextToken());
-            times[i] = x;
-            while(true){
-                x = Integer.parseInt(st.nextToken());
-                if(x == -1){
+        for(int i=1; i<=v; i++){
+            String[] x = br.readLine().split(" ");
+            times[i] = Integer.parseInt(x[0]);
+
+            for(int j=1; j<x.length; j++){
+                if(Integer.parseInt(x[j]) == -1){
                     break;
                 }
                 indegree[i] += 1;
-                graph.get(x).add(i);
+                graph.get(Integer.parseInt(x[j])).add(i);
             }
         }
         topologySort();
@@ -53,9 +50,14 @@ public class 커리큘럼 {
             answer[i] = times[i];
         }
 
+        for(int i=1; i<=v; i++){
+            if(indegree[i] == 0){
+                q.offer(i);
+            }
+        }
+
         while(!q.isEmpty()){
             int curr = q.poll();
-
             for(int i=0; i<graph.get(curr).size(); i++){
                 answer[graph.get(curr).get(i)] = Math.max(answer[graph.get(curr).get(i)], answer[curr] + times[graph.get(curr).get(i)]);
                 indegree[graph.get(curr).get(i)] -= 1;
@@ -66,7 +68,9 @@ public class 커리큘럼 {
         }
 
         for (Integer ans : answer) {
-            System.out.println(ans);
+            if (ans != 0) {
+                System.out.println(ans);
+            }
         }
 
 

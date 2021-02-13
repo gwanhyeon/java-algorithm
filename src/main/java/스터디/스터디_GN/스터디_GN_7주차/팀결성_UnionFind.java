@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
 0 1 1
 1 1 1
  */
-public class 팀결성 {
+public class 팀결성_UnionFind {
     static int v,e;
     static int[] parent = new int[100001];
     public static void main(String[] args) throws IOException {
@@ -48,7 +48,6 @@ public class 팀결성 {
             }
         }
     }
-
     private static void unionParent(int x, int y) {
         x = findParent(x);
         y = findParent(y);

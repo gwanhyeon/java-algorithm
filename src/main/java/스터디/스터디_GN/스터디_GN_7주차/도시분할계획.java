@@ -75,7 +75,7 @@ public class 도시분할계획 {
             if(findParent(x) != findParent(y)){
                 unionParent(x,y);
                 answer +=w;
-                last 1= w;
+                last = w;
             }
         }
         System.out.println(answer - last);
