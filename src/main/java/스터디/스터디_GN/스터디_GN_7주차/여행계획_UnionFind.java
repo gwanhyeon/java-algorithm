@@ -15,13 +15,6 @@ import java.util.StringTokenizer;
  * 3. 플랜계획에 들어가있는 리스트들을 기반으로해서 부모의 노드가 모두 같은지를 체크한다.
  * 부모의 노드가 다르다는것은 결국 다른 여행경로를 가지고 있다는것이기때문에 다르다는게 하나라도 나오면 false, 그게아니면 true
  * 를 처리하여 YES OR NO를 출력시켜준다.
- 5 4
- 0 1 0 1 1
- 1 0 1 1 0
- 0 1 0 0 0
- 1 1 0 0 0
- 1 0 0 0 0
- 2 3 4 3
  */
 /*
 5 4
@@ -64,6 +57,8 @@ public class 여행계획_UnionFind {
         while(st.hasMoreTokens()){
             planList.add(Integer.parseInt(st.nextToken()));
         }
+        // 0 -> 2
+        // 1 -> 3
         boolean isCheck = true;
         for(int i=0; i<planList.size()-1; i++){
             if (unionFindParent(planList.get(i)) != unionFindParent(planList.get(i + 1))) {

@@ -22,6 +22,19 @@ import java.util.*;
 3 4
 2 3
  */
+
+/**
+ * 문제 해결 방법
+ * 1. 정해진 우선순위에 맞게 전체팀들의 순서를 나열해야한다 -> 우선순위를 가지고 탐색을 진행해야하므로 위상정렬알고리즘을 떠올릴 수 있어야한다.
+ * 2. 작년순위(우선순위가) 주어지기때문에 해당 정보를 가지고 방향그래프 생성
+ * 3. 만약 상대적인 우선순위가 바뀌게된다면 해당간선의 방향을 반대로 만들고, 0으로 초기화 시켜줍니다.
+ * 또한, 간선의 개수도 증가,감소를 통하여 해당 반대로된 순위의 간선을 해제시키고 추가해준다.
+ *
+ * 4. 위상정렬은 고려해야할점은 2가지
+ * (1) 사이클생성 X, 위성정렬의 결과가 1개가 아니라 여러가지인 경우 위상정렬이 될 수 없음.
+ * 위상정렬을 수행한 결과는 단 1개의 정렬걸과가 나와야한다.
+ *
+ */
 public class 최종순위_위상정렬 {
     // 간선의 개수 저장
     static int[] indegree = new int[501];
@@ -48,8 +61,8 @@ public class 최종순위_위상정렬 {
             // 방향그래프의 간선 정보 초기화
             for(int i=0; i<n; i++){
                 for(int j=i+1; j<n; j++){
-                    graph[arrList.get(i)][arrList.get(j)] = 1;
-                    indegree[arrList.get(j)] +=1;
+                    graph[arrList.get(i)][arrList.get(j)] = 1;      // 연결된 모든 간선을 1
+                    indegree[arrList.get(j)] +=1;       // 방향그래프이므로 a->b
                 }
             }
             int m = Integer.parseInt(br.readLine());
@@ -57,13 +70,12 @@ public class 최종순위_위상정렬 {
                 st = new StringTokenizer(br.readLine(), " ");
                 int x = Integer.parseInt(st.nextToken());
                 int y = Integer.parseInt(st.nextToken());
-
                 // 간선의 방향 뒤집기
                 if(graph[x][y] == 1){
-                    graph[x][y] = 0;
-                    graph[y][x] = 1;
-                    indegree[x] += 1;
-                    indegree[y] -= 1;
+                    graph[x][y] = 0;        // 간선 미체크
+                    graph[y][x] = 1;        // 간선 체크
+                    indegree[x] += 1;       // 간선의 개수 증가
+                    indegree[y] -= 1;       // 간선의 개수 감소
                 }else {
                     graph[x][y] = 1;
                     graph[y][x] = 0;

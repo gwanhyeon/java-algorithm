@@ -53,7 +53,7 @@ public class Union_Find_서로소_응용_경로압축 {
         x = findParent(x);
         y = findParent(y);
         // y의 부모는 x
-        if(x < y){
+        if(x < y){ //2,4
             parent[y] = x;
         }
         // x의 부모는 y

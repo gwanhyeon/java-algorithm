@@ -12,6 +12,7 @@ import java.util.StringTokenizer;
 2 4
 5 6
  */
+// 269
 
 // 노드 개수 : 최대 100,000개 V, 노드의 개수와 간선의 개수 E
 public class Union_Find_서로소_기본 {
