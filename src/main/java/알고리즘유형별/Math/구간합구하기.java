@@ -13,7 +13,6 @@ public class 구간합구하기 {
     public static void main(String[] args) {
         int n = 5;
         int[] arr = {10,20,30,40,50};
-
         int summary = 0;
         ArrayList<Integer> prefix_sum = new ArrayList<>();
 

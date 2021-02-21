@@ -27,13 +27,14 @@ public class 신규아이디추천 {
         // \\"는 "\"를 찾고 "\("는 "(" 찾습니다.
         pattern = "\\.{2,}";
         // 같은뜻 pattern = "[.]{2,}";
-
         new_id = new_id.replaceAll(pattern, ".");
 
         // 4단계
+        //처음
         if(!"".equals(new_id) && new_id.charAt(0) == '.'){
             new_id = new_id.substring(1);       // 0번째를 제외한 나머지모두가져옴
         }
+        //끝
         if(!"".equals(new_id) && new_id.charAt(new_id.length()-1) == '.'){
             new_id = new_id.substring(0, new_id.length()-1);
         }

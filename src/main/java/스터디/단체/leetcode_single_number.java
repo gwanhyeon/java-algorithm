@@ -1,8 +1,12 @@
 package 스터디.단체;
 
+
+
+
 import java.util.HashMap;
 import java.util.Map;
 public class leetcode_single_number {
+
     public static void main(String[] args) {
         singleNumber(new int[]{2,2,1});
         singleNumber(new int[]{4,1,2,1,2});

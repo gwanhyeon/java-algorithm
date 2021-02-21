@@ -17,6 +17,7 @@ import java.util.Queue;
  * 인접리스트 BFS -> O(V+E)
  */
 public class programmers_경주로건설_kgh {
+
     static int[][] dir = {{1,0},{0,-1},{-1,0},{0,1}};
     static int n;
     static int answer;
@@ -44,7 +45,6 @@ public class programmers_경주로건설_kgh {
                 answer = Math.min(answer, dWeight);
                 continue;
             }
-
             for(int i=0; i<4; i++){
                 int mx = dx + dir[i][0];
                 int my = dy + dir[i][1];

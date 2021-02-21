@@ -10,6 +10,10 @@ import java.util.Set;
  * 해당 조건을 잘 찾아내면 쉽게 풀리는 문제이다. 차례구할때 순간 헷갈려서 삽질을 했따.
  * 3. 컴퓨팅 사고
  * O(N)
+ * 1  a a
+ * 2 a a
+ * 3  a a a
+ *
  */
 public class programmers_영어끝말잇기_kgh {
     public static void main(String[] args) {
@@ -20,7 +24,9 @@ public class programmers_영어끝말잇기_kgh {
         Set<String> s = new HashSet<>();
         s.add(words[0]);
         for(int i=1; i<words.length; i++){
+            // 처음 단어(끝한글자)
             char currWord = words[i-1].charAt(words[i-1].length()-1);
+            // 다음 단어(첫한글자)
             char nextWord = words[i].charAt(0);
             if(currWord == nextWord) {
                 // 이미존재한 단어로 끝말잇기를 진행할 수 없습니다.
