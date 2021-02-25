@@ -11,7 +11,6 @@ public class 다리를지나는트럭 {
         int answer = 0;
         int sum = 0;
         Queue<Integer> q = new LinkedList<>();
-        //
         for (int i = 0; i < bridge_length; i++) {
             q.offer(0);
         }
