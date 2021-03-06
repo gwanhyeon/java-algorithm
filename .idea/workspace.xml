@@ -12,106 +12,34 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AdjArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AdjGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AdjList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AdjListGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Math/투포인터알고리즘.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/N진수게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/N진수게임.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Study/baekjoon_Mootube15591_kgh$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Study/baekjoon_Mootube15591_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Study/leetcode_TwoSum_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Study/leetcode_ValidParentheses_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Study/programmers_멀쩡한사각형_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Study/programmers_스킬트리_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/codeup/동아리회장선거.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/문자열내p와y의개수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/문자열내마음대로정렬하기$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/문자열내마음대로정렬하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/문자열을내림차순으로배치하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/문자열을정수로바꾸기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/소수찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/소수찾기2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/수이어쓰기1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/수이어쓰기1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/숫자카드.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/숫자카드.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_6주차/플로이드워셜알고리즘.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_6주차/플로이드워셜알고리즘.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN_2주차/문자열압축.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN_2주차/연구소.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN_5주차/LCS_LENGTH_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN_5주차/LCS_LENGTH_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN_5주차/MinimumEditDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/leetcode_Generate_Parentheses_recursive_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/leetcode_Longest_Palindromic_Substring_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/leetcode_Longest_Palindromic_Substring_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/leetcode_Longest_Substring_Without_Repeating_Characters_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/leetcode_Merge_Two_Sorted_Lists_kgh$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/leetcode_Merge_Two_Sorted_Lists_kgh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/programmers_기지국설치_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/programmers_기지국설치_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/programmers_셔틀버스_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section03/programmers_셔틀버스_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/leetcode_LRU_Cache_kgh$LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/leetcode_LRU_Cache_kgh$LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/leetcode_LRU_Cache_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/leetcode_LRU_Cache_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section05/leetcode_permutation_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section05/leetcode_permutation_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/leetcode_JumpGame_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/leetcode_JumpGame_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/leetcode_container_with_most_water_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/leetcode_container_with_most_water_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/leetcode_house_robber_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/leetcode_house_robber_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/programmers_보석쇼핑_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/programmers_보석쇼핑_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section08/programmers_가장긴팰린드롬_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section08/programmers_가장긴팰린드롬_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/실패율.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/실패율.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/연결요소11724.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/연결요소11724.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/주식가격.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/진수변환.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/짝지어제거하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/파일명정렬$Solution$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/파일명정렬$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/파일명정렬.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/스터디/스터디_SNU/Section05/programmers_영어_끝말잇기_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-algorithm/스터디/스터디_SNU/Section05/programmers_영어_끝말잇기_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/스터디/스터디_SNU/Section05/programmers_징검다리_건너기_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-algorithm/스터디/스터디_SNU/Section05/programmers_징검다리_건너기_kgh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CyclicRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/N진수게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/N진수게임.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TermProject9466.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TermProject9466.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/twosum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/twosum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/같은숫자는싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/같은숫자는싫어.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/월간코드챌린지/두개뽑아서더하기1차_Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/월간코드챌린지/두개뽑아서더하기1차_Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/월간코드챌린지/삼각달팽이1차_Level2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/월간코드챌린지/삼각달팽이1차_Level2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/불량사용자3번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/불량사용자3번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/징검다리건너기4번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/징검다리건너기4번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/크레인인형뽑기1번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/크레인인형뽑기1번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/튜플2번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/튜플2번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/호텔방배정5번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오2019개발자_겨울인턴십/호텔방배정5번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오인턴십2020/보석쇼핑3번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오인턴십2020/보석쇼핑3번.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/JavaGrammar/Generic/Box2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/JavaGrammar/Generic/Box2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/JavaGrammar/Generic/FruitBox2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/JavaGrammar/Generic/FruitBox2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/단체/leetcode_single_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/단체/leetcode_single_number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_1주차/모험가길드_그리디.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_1주차/모험가길드_그리디.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_7주차/Union_Find_서로소집합_사이클판별.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_7주차/Union_Find_서로소집합_사이클판별.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_9주차/다리를지나는트럭.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_GN/스터디_GN_9주차/다리를지나는트럭.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section01/leetcode_TwoSum_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section01/leetcode_TwoSum_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section01/leetcode_ValidParentheses_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section01/leetcode_ValidParentheses_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section01/programmers_멀쩡한사각형_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section01/programmers_멀쩡한사각형_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section02/leetcode_maximum_subarray_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section02/leetcode_maximum_subarray_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section12/programmers_영어끝말잇기_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section12/programmers_영어끝말잇기_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/알고리즘유형별/Math/구간합구하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/알고리즘유형별/Math/구간합구하기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codility/FrogRiverOne_lesson04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codility/FrogRiverOne_lesson04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaGrammar/Generic/FruitBox2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaGrammar/Generic/FruitBox2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오인턴십2020/키패드누르기1번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오인턴십2020/키패드누르기1번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/나라의숫자124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/나라의숫자124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/동전011047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/동전011047.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/반복수열2331.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/반복수열2331.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/베스트앨범.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/베스트앨범.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/빗물14719.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/빗물14719.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/순위.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/순위.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/숫자카드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/숫자카드.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/단체/leetcode_single_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/단체/leetcode_single_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_1주차/동전_그리디.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_1주차/동전_그리디.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_1주차/모험가길드_그리디.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_1주차/모험가길드_그리디.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_2주차/럭키스트레이트.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_2주차/럭키스트레이트.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_2주차/무지의먹방라이브.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_2주차/무지의먹방라이브.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_2주차/문자열재정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_2주차/문자열재정렬.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_3주차/실패율.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_3주차/실패율.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_5주차/LongestCommonSubsequence_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_5주차/LongestCommonSubsequence_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_5주차/LongestCommonSubsequence_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_5주차/LongestCommonSubsequence_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN_1주차/볼링공고르기.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN_1주차/큰수의법칙_그리디.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN_2주차/연구소.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_7주차/Union_Find_서로소집합_사이클판별.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_7주차/Union_Find_서로소집합_사이클판별.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/나라의숫자124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/나라의숫자124.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/다리를지나는트럭.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/다리를지나는트럭.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/프린터.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/프린터.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/baekjoon_Mootube15591_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/baekjoon_Mootube15591_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/leetcode_TwoSum_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/leetcode_TwoSum_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/leetcode_ValidParentheses_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/leetcode_ValidParentheses_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/programmers_멀쩡한사각형_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/programmers_멀쩡한사각형_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/programmers_스킬트리_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section01/programmers_스킬트리_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/baekjoon_새로운게임_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/baekjoon_새로운게임_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_AddTwoNumbers_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_AddTwoNumbers_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_Generate_Parentheses_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_Generate_Parentheses_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_Longest_Palindromic_Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_Longest_Palindromic_Substring.java" afterDir="false" />
@@ -121,35 +49,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Generate_Parentheses_recursive_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Generate_Parentheses_recursive_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Longest_Palindromic_Substring_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Longest_Palindromic_Substring_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Longest_Substring_Without_Repeating_Characters_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Longest_Substring_Without_Repeating_Characters_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Merge_Two_Sorted_Lists_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Merge_Two_Sorted_Lists_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/programmers_셔틀버스_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/programmers_셔틀버스_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/문제목록.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/문제목록.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section05/programmers_징검다리_건너기_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section05/programmers_징검다리_건너기_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/leetcode_JumpGame_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/leetcode_JumpGame_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/leetcode_container_with_most_water_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/leetcode_container_with_most_water_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/leetcode_house_robber_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/leetcode_house_robber_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/programmers_보석쇼핑_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/programmers_보석쇼핑_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/programmers_불량사용자_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section06/programmers_불량사용자_kgh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/실패율.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/실패율.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Graph/DFSBFS_ARR1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Graph/DFSBFS_ARR1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Graph/DFSBFS_LIST1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Graph/DFSBFS_LIST1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/소수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/소수찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/소수찾기2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/소수찾기2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/피보나치수5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/피보나치수5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Sort/프로그래머스_프린터.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/Sort/프로그래머스_프린터.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열내p와y의개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열내p와y의개수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열내마음대로정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열내마음대로정렬하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열을내림차순으로배치하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열을내림차순으로배치하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열을정수로바꾸기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘유형별/String/문자열을정수로바꾸기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘템플릿/다익스트라_응용_한점에서다른점_최단경로_제한높을때.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘템플릿/다익스트라_응용_한점에서다른점_최단경로_제한높을때.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘템플릿/다익스트라_한점에서다른점_최단경로_제한낮을때.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘템플릿/다익스트라_한점에서다른점_최단경로_제한낮을때.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/알고리즘템플릿/플로이드워셜_여러점에서_다른점들까지_최단경로.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/알고리즘템플릿/플로이드워셜_여러점에서_다른점들까지_최단경로.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/오픈채팅방.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/오픈채팅방.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/이중우선순위큐.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/이중우선순위큐.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/전화번호목록.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/전화번호목록.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/진수변환.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/창고다각형2304.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/파일명정렬.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_튜플_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_튜플_kgh.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -539,18 +440,189 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="스터디.스터디_GN.스터디_GN_8주차" />
+      <recent name="스터디.스터디_SNU.Section13" />
       <recent name="스터디.스터디_SNU.Section08" />
       <recent name="스터디.스터디_GN_4주차" />
       <recent name="스터디.스터디_SNU.Section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.커리큘럼">
-    <configuration name="도시분할계획" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_7주차.도시분할계획" />
+  <component name="RunManager" selected="Application.큰수만들기">
+    <configuration name="스킬트리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_10주차.스킬트리" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_10주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="기능개발" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_10주차.기능개발" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_10주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="큰수만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_10주차.큰수만들기" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_10주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="다리를지나는트럭" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_9주차.다리를지나는트럭" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_9주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="멀쩡한사각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_9주차.멀쩡한사각형" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_9주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="커리큘럼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_7주차.커리큘럼" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_7주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="아기상어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_8주차.아기상어" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_8주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="미래도시" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_6주차.미래도시" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_6주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="메뉴리뉴얼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level2.메뉴리뉴얼" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="프로그래머스.Level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="아기상어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_8주차.아기상어" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_8주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="순위검색" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level2.순위검색" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="프로그래머스.Level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="다리를지나는트럭" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_9주차.다리를지나는트럭" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_9주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="고정점찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN_4주차.고정점찾기" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN_4주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="플로이드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_6주차.플로이드" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_6주차.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -597,38 +669,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="커리큘럼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_7주차.커리큘럼" />
+    <configuration name="최대공약수최소공배수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level1.최대공약수최소공배수" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_7주차.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Union_Find_서로소집합_사이클판별" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_7주차.Union_Find_서로소집합_사이클판별" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_7주차.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="플로이드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_6주차.플로이드" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_6주차.*" />
+          <option name="PATTERN" value="프로그래머스.Level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -642,6 +688,45 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_6주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="아기상어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_8주차.아기상어" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_8주차.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="콜라츠추측" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level1.콜라츠추측" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="프로그래머스.Level1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="행렬의덧셈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level1.행렬의덧셈" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="프로그래머스.Level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -675,25 +760,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="미래도시" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_6주차.미래도시" />
+    <configuration name="leetcode_Longest_Palindromic_Substring_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section03.leetcode_Longest_Palindromic_Substring_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_GN.스터디_GN_6주차.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="고정점찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN_4주차.고정점찾기" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_GN_4주차.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -716,12 +788,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_카펫_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_카펫_kgh" />
+    <configuration name="programmers_배달_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section02.programmers_배달_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_전화번호부_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_전화번호부_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -731,201 +816,6 @@
     </configuration>
     <configuration name="programmers_순위_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_순위_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_합승택시요금_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_합승택시요금_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_광고삽입_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_광고삽입_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_블록이동하기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_블록이동하기_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_소수찾기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_소수찾기_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_가장긴팰린드롬_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_가장긴팰린드롬_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_블록이동하기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_블록이동하기_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_광고삽입_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_광고삽입_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_이중우선순위큐_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_이중우선순위큐_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_입국심사_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_입국심사_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_네트워크_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_네트워크_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_등굣길_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_등굣길_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -950,32 +840,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_전화번호부_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_전화번호부_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_보석쇼핑_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section06.programmers_보석쇼핑_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
       <module name="algorithm.main" />
@@ -989,25 +853,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
+    <configuration name="programmers_영어끝말잇기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_영어끝말잇기_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1028,8 +879,372 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers_이진변환하기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_이진변환하기_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_튜플_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_튜플_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_경주로건설_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_경주로건설_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_튜플_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_튜플_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_보석쇼핑_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section06.programmers_보석쇼핑_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_블록이동하기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_블록이동하기_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_합승택시요금_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_합승택시요금_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_길찾기게임_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_길찾기게임_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_네트워크_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_네트워크_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_블록이동하기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_블록이동하기_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_가장긴팰린드롬_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_가장긴팰린드롬_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_소수찾기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_소수찾기_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_자물쇠열쇠_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_자물쇠열쇠_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_광고삽입_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_광고삽입_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_카펫_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_카펫_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_광고삽입_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_광고삽입_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_등굣길_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_등굣길_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_추석트래픽_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_추석트래픽_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_셔틀버스_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_셔틀버스_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_셔틀버스_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_셔틀버스_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_이중우선순위큐_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_이중우선순위큐_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_입국심사_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_입국심사_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -1056,11 +1271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.커리큘럼" />
-        <item itemvalue="Application.도시분할계획" />
-        <item itemvalue="Application.팀결성" />
-        <item itemvalue="Application.위상정렬" />
-        <item itemvalue="Application.크루스칼알고리즘" />
+        <item itemvalue="Application.큰수만들기" />
+        <item itemvalue="Application.기능개발" />
+        <item itemvalue="Application.스킬트리" />
+        <item itemvalue="Application.leetcode_Longest_Palindromic_Substring_kgh" />
+        <item itemvalue="Application.programmers_배달_kgh" />
       </list>
     </recent_temporary>
   </component>
@@ -1212,6 +1427,25 @@
       <workItem from="1612768729268" duration="7366000" />
       <workItem from="1612836045891" duration="29791000" />
       <workItem from="1612925726221" duration="13339000" />
+      <workItem from="1613052357203" duration="3332000" />
+      <workItem from="1613093802093" duration="15422000" />
+      <workItem from="1613146508195" duration="37440000" />
+      <workItem from="1613286603698" duration="8984000" />
+      <workItem from="1613310716506" duration="41778000" />
+      <workItem from="1613539904677" duration="5626000" />
+      <workItem from="1613545573889" duration="13370000" />
+      <workItem from="1613619631303" duration="2184000" />
+      <workItem from="1613624647833" duration="3405000" />
+      <workItem from="1613634713359" duration="8950000" />
+      <workItem from="1613799718045" duration="2736000" />
+      <workItem from="1613815621214" duration="14527000" />
+      <workItem from="1614058125370" duration="5109000" />
+      <workItem from="1614147438896" duration="1982000" />
+      <workItem from="1614149598954" duration="19394000" />
+      <workItem from="1614399004471" duration="7860000" />
+      <workItem from="1614440571057" duration="5883000" />
+      <workItem from="1614474108799" duration="46440000" />
+      <workItem from="1614920010412" duration="47440000" />
     </task>
     <servers />
   </component>
@@ -1314,7 +1548,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/programmers_배달_kgh.java</url>
-          <line>61</line>
+          <line>60</line>
           <properties class="스터디.스터디_SNU.Section02.programmers_배달_kgh" method="bfs">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1650,12 +1884,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/leetcode_Longest_Substring_Without_Repeating_Characters_kgh.java</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="243" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_maximum_subarray_kgh.java</url>
-          <line>35</line>
+          <line>36</line>
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2062,6 +2296,81 @@
           <url>file://$PROJECT_DIR$/src/main/java/알고리즘유형별/Math/투포인터알고리즘.java</url>
           <line>22</line>
           <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/프로그래머스/Level1/신규아이디추천.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_7주차/여행계획_UnionFind.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_7주차/여행계획_UnionFind.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section12/programmers_경주로건설_kgh.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section12/programmers_셔틀버스_kgh.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/단체/leetcode_BestTimeToBuyAndSellStock_kgh.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/프로그래머스/Level1/신규아이디추천.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_maximum_subarray_kgh.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/나라의숫자124.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/프린터.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/기출문제/sm/test4.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/주식가격.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/CyclicRotation_lesson02.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/기출문제/naver/test2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section02/leetcode_AddTwoNumbers_kgh.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="503" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/알고리즘유형별/Graph/DFSBFS_ARR1260.java</url>
