@@ -21,7 +21,6 @@ public class programmers_튜플_kgh {
     static List<Integer> solution(String s){
         Set<Integer> hs = new HashSet<>();
         List<String> arrList = new ArrayList<>();
-
         for(int i=1; i<s.length()-1; i++){
             String tmpStr = "";
             if(s.charAt(i) == '{'){
@@ -56,6 +55,7 @@ public class programmers_튜플_kgh {
                 }
             }
         }
+        answer.forEach(i -> System.out.println("i = " + i));
         return answer;
     }
 }

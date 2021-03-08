@@ -12,8 +12,21 @@ https://hqjang.tistory.com/60
 newlcok과 newkey의 값을 합쳐서 하나의 맵을 구해줍니다.
 5. 가운데부분에서부터 시작해서 cnt값 즉 홈인경우에 정확히 일치하는지를 확인합니다.
 6. cnt 값이 자물쇠의 길이 * 2와 같다는것은 모든값들이 맞다는것을 의미합니다. 즉, true를 리턴하면서 진행합니다.
+
+0 = {int[7]@437} [0, 0, 0, 0, 0, 0, 0]
+1 = {int[7]@444} [0, 0, 0, 0, 0, 0, 0]
+2 = {int[7]@436} [0, 0, 1, 1, 1, 0, 0]
+3 = {int[7]@440} [0, 0, 1, 1, 0, 0, 0]
+4 = {int[7]@442} [0, 0, 1, 0, 1, 0, 0]
+5 = {int[7]@445} [0, 0, 0, 0, 0, 0, 0]
+6 = {int[7]@446} [0, 0, 0, 0, 0, 0, 0]
+
+상하좌우 다음과같이 중앙부분에 LOCK을 두고 외곽부분에 Key를 처리합니다.
+
 3. 시간복잡도
 O(N^4)? 너무 브루트포스방식이라 최대의 복잡도가 발생할것을 예상
+
+
 
  */
 public class programmers_자물쇠열쇠_kgh {
@@ -25,7 +38,7 @@ public class programmers_자물쇠열쇠_kgh {
         int keySize = key.length;
         int lockSize = lock.length;
 
-        // 4방향 rotate
+        // 4방향 rotate2
         for(int k=0; k<4; k++){
             int[][] newKey = new int[keySize][keySize];
 
@@ -74,15 +87,4 @@ public class programmers_자물쇠열쇠_kgh {
         }
         return false;
     }
-    /*
-    static int[][] rotationFucntion(int[][] arr){
-        int[][] tmp = new int[arr.length][arr.length];
-        for(int i=arr.length-1; i>=0; i--){
-            for(int j=0; j<arr[i].length; j++){
-                tmp[j][(arr.length-1)-i] = arr[i][j];
-            }
-        }
-        return tmp;
-    }
-     */
 }

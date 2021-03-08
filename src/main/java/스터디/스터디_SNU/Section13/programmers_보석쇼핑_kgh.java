@@ -1,6 +1,9 @@
-package 스터디.스터디_SNU.Section06;
+package 스터디.스터디_SNU.Section13;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 1. 풀이시간: 초과
@@ -11,13 +14,17 @@ import java.util.*;
  * 만약 모든 종류의 보석이 포함되어 있다면 값을 하나씩 줄여가면서 최적의 해를 찾는 과정이 진행됩니다. (start 포인트점을 증가시켜 앞에서부터 확인을 진행하는 과정)
  * 그렇지않다면, 뒤에서부터 범위를 줄여나가면서 마지막포인터의 값을 증가시켜줍니다.
  * 최종적으로 end-start의 값이 최소범위를 만족할 경우 start+1은 시작점, end점은 끝점이 되면서 값을 반환시켜주게됩니다.
+ * end-start 절대값 넣어줬다가 95퍼에서 터졌는데 없애니까 정답
+ *
  * 3. 시간 복잡도 O(N)
  */
 public class programmers_보석쇼핑_kgh {
     public static void main(String[] args) {
-
         //System.out.println(solution(new String[]{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"}));
-        solution(new String[]{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"});
+        //solution(new String[]{"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"});
+//        solution(new String[]{"DIA", "EM", "EM", "RUBY","DIA"});
+        solution(new String[]{"DIA"});
+//        solution(new String[]{"DIA","DIV"});
     }
 
     private static int[] solution(String[] gems) {
@@ -33,7 +40,6 @@ public class programmers_보석쇼핑_kgh {
         int min = Integer.MAX_VALUE;
         int[] answer = {0,0};
         while(true){
-
             if(m.size() >= s.size()){
                 m.merge(gems[start], 1, (currValue, value) -> currValue - value);
                 if(m.get(gems[start]) == 0){
@@ -48,13 +54,14 @@ public class programmers_보석쇼핑_kgh {
             }
 
             if(m.size() == s.size()){
-                if(Math.abs(end-start) < min){
+                if(Math.abs(end-start) <= min){
                     min = Math.min(end-start, min);
                     answer[0] = start+1;
                     answer[1] = end;
                 }
             }
         }
+        System.out.println(answer[0] + " " + answer[1]);
         return answer;
     }
 }
