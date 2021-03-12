@@ -38,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/leetcode_palindromic_substrings_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/leetcode_palindromic_substrings_kgh.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/programmers_수식의최대화_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section04/programmers_수식의최대화_kgh.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/programmers_보석쇼핑_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/programmers_보석쇼핑_kgh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/투포인트알고리즘.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section06/투포인트알고리즘.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section12/programmers_영어끝말잇기_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section12/programmers_영어끝말잇기_kgh.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/스터디/스터디_SNU/Section13/programmers_튜플_kgh.class" afterDir="false" />
@@ -1513,6 +1514,7 @@
       <workItem from="1615080334583" duration="71633000" />
       <workItem from="1615510116480" duration="695000" />
       <workItem from="1615529237859" duration="2205000" />
+      <workItem from="1615604921583" duration="301000" />
     </task>
     <servers />
   </component>
