@@ -34,7 +34,9 @@ public class programmers_풍선터트리기_kgh {
 
         // 첫번째 풍선 제외
         for(int i=1; i< arr.length; i++){
+            System.out.println(minValue);
             set.add(minValue);
+
             minValue = Math.min(arr[i], minValue);
         }
 

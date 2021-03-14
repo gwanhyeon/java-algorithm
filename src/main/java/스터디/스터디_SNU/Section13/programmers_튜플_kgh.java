@@ -21,6 +21,8 @@ public class programmers_튜플_kgh {
     static List<Integer> solution(String s){
         Set<Integer> hs = new HashSet<>();
         List<String> arrList = new ArrayList<>();
+
+        // {2,1,3}, {2},{2,1},{2,1,3,4}
         for(int i=1; i<s.length()-1; i++){
             String tmpStr = "";
             if(s.charAt(i) == '{'){
@@ -36,6 +38,7 @@ public class programmers_튜플_kgh {
             System.out.println("s1 = " + s1);
         }
         // 길이가 작은순으로 정렬
+
         arrList.sort(new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -48,6 +51,8 @@ public class programmers_튜플_kgh {
         List<Integer> answer = new ArrayList<>();
         for(int i=0; i<arrList.size(); i++){
             String[] tmp = arrList.get(i).split(",");
+            // 2 1 3
+            // 2 21 213
             for(String s1 :tmp){
                 if (!hs.contains(Integer.parseInt(s1))) {
                     hs.add(Integer.parseInt(s1));

@@ -50,7 +50,7 @@ public class leetcode_LRU_Cache_kgh {
             else {
                 // 우선순위 변경
                 int target = m.get(key);
-                m.remove(key);
+                m.remove(key); 
                 m.put(key, target);
             }
             return m.get(key);

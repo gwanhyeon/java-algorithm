@@ -42,7 +42,6 @@ public class 모험가길드_그리디 {
                 .boxed()
                 .sorted()
                 .collect(Collectors.toCollection(ArrayList::new));
-
         int participantGroup = 0;
         int participantCnt = 0;
         for (int i = 0; i < fearList.size(); i++) {
@@ -55,10 +54,7 @@ public class 모험가길드_그리디 {
         System.out.println(participantGroup);
     }
 
-
-
     private static void solution(int n, int[] arr) {
-
         ArrayList<Integer> fearList = Arrays.stream(arr)
                 .boxed()
                 .sorted()
@@ -68,7 +64,6 @@ public class 모험가길드_그리디 {
         while(fearList.size() > 0){
             ArrayList<Integer> tmpList = new ArrayList<>();
             int cnt = 0;
-
             for(int i=0; i<fearList.size()-1; i++){
                 // 값이 더 클 경우
                 if(fearList.get(i) < fearList.get(i+1)){

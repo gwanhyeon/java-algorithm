@@ -52,6 +52,7 @@ public class programmers_방문길이_kgh {
                 hs.add(x+""+y+""+tmp_x+""+tmp_y);
                 hs.add(tmp_x+""+tmp_y+""+x+""+y);
             }
+
             // 벽 부딪히는 경우
             else {
                 x = x - dir[idx][0];

@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.IntStream;
-
+// https://www.acmicpc.net/problem/15591
 /**
  * 1. 문제풀이 시간: 30분(복습시)
  * 2. 컴퓨팅사고

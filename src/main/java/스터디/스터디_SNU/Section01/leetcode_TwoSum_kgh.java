@@ -9,7 +9,6 @@ import java.util.HashMap;
 /*
 풀이시간: 10분
 컴퓨팅사고:
-
 단순히 2중포문을 돌면서 twoSum을 풀면됩니다.
 
  */
@@ -33,9 +32,7 @@ public class leetcode_TwoSum_kgh {
         }
         System.out.println(answer[0] + "" + answer[1]);
     }
-
     static void solution1(int[] nums, int target) {
-
         // <value, idx>
         HashMap<Integer, Integer> hm = new HashMap<>();
         int[] answer = new int[2];

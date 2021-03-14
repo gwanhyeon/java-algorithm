@@ -33,7 +33,6 @@ public class programmers_보석쇼핑_kgh {
         int min = Integer.MAX_VALUE;
         int[] answer = {0,0};
         while(true){
-
             if(m.size() >= s.size()){
                 m.merge(gems[start], 1, (currValue, value) -> currValue - value);
                 if(m.get(gems[start]) == 0){

@@ -8,13 +8,13 @@ public class 프린터 {
         System.out.println(solution(new int[]{2, 1, 3, 2}, 2));
     }
     static int solution(int[] priorities, int location) {
-        // 큰 것부터 비교해주어야하므로 reverseOrder() 내림차순 정
+        // 큰 것부터 비교해주어야하므로 reverseOrder() 내림차순 정렬
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         for(int i=0; i<priorities.length; i++){
             pq.add(priorities[i]);
         }
-
         int answer = 0;
+        // 3 2 2 1
         while(!pq.isEmpty()){
             for(int i=0; i<priorities.length; i++){
                 if(pq.peek() == priorities[i]){
@@ -23,11 +23,8 @@ public class 프린터 {
                     if(location == i){
                         return answer;
                     }
-
-                    
                 }
             }
-
         }
         return answer;
     }

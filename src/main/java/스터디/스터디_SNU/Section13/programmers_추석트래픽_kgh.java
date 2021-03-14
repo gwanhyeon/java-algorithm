@@ -27,6 +27,7 @@ public class programmers_추석트래픽_kgh {
         int answer = 0;
 
         // ms 단위로 변환
+
         int[] startTimes = new int[lines.length];
         int[] endTimes = new int[lines.length];
         convertDateToMs(lines,startTimes, endTimes);
@@ -43,12 +44,19 @@ public class programmers_추석트래픽_kgh {
             // 시작시점에서 초단위로 확인을 해야하기 때문에 해당사항처럼 진
             int startTime = startTimes[i];
             int endTime = startTime + 1000;
+            // start "2016-09-15 01:00:02.001 2.0s"
+            // end "2016-09-15 01:00:04.001 2.0s"
             for (int j = 0; j < lines.length; j++) {
+                // start
                 if (startTimes[j] >= startTime && startTimes[j] < endTime) {
                     cnt++;
-                } else if (endTimes[j] >= startTime && endTimes[j] < endTime) {
+                }
+                // end
+                else if (endTimes[j] >= startTime && endTimes[j] < endTime) {
                     cnt++;
-                } else if (startTimes[j] <= startTime && endTimes[j] >= endTime) {
+                }
+                // start to end
+                else if (startTimes[j] <= startTime && endTimes[j] >= endTime) {
                     cnt++;
                 }
             }
@@ -59,7 +67,7 @@ public class programmers_추석트래픽_kgh {
             int cnt = 0;
             // 시작시점에서 초단위로 확인을 해야하기 때문에 해당사항처럼 진행
             int startTime = endTimes[i];
-            int endTime = startTime + 1000;
+            int endTime = endTimes[i] + 1000;
             for (int j = 0; j < lines.length; j++) {
                 if (startTimes[j] >= startTime && startTimes[j] < endTime) {
                     cnt++;
@@ -78,6 +86,7 @@ public class programmers_추석트래픽_kgh {
         for(int i=0; i<lines.length; i++){
             // "2016-09-15 01:00:04.001 2.0s"
             lines[i] = lines[i].replace("s","");
+
             // "01:00:04.001          2.0"
             String[] dateTimes = lines[i].split(" ");
             String[] responseTimes = dateTimes[1].split(":");

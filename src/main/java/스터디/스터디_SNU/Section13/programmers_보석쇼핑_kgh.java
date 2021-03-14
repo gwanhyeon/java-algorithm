@@ -26,7 +26,6 @@ public class programmers_보석쇼핑_kgh {
         solution(new String[]{"DIA"});
 //        solution(new String[]{"DIA","DIV"});
     }
-
     private static int[] solution(String[] gems) {
         Set<String> s = new HashSet<>();
         Map<String,Integer> m = new HashMap<>();
@@ -39,22 +38,19 @@ public class programmers_보석쇼핑_kgh {
         int end = 0;
         int min = Integer.MAX_VALUE;
         int[] answer = {0,0};
-        while(true){
+        while(start <= end){
             if(m.size() >= s.size()){
                 m.merge(gems[start], 1, (currValue, value) -> currValue - value);
                 if(m.get(gems[start]) == 0){
                     m.remove(gems[start]);
                 }
                 start++;
-            }else if(end == gems.length){
-                break;
-            } else{
+            }else{
                 m.merge(gems[end], 1, (currValue,value) -> currValue + value);
                 end++;
             }
-
             if(m.size() == s.size()){
-                if(Math.abs(end-start) <= min){
+                if(end-start <= min){
                     min = Math.min(end-start, min);
                     answer[0] = start+1;
                     answer[1] = end;

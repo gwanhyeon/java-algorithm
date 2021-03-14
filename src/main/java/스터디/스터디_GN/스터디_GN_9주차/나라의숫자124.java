@@ -2,7 +2,7 @@ package 스터디.스터디_GN.스터디_GN_9주차;
 
 public class 나라의숫자124 {
     public static void main(String[] args) {
-        solution(6);
+        solution(10);
     }
     static void solution(int n){
         String str = "";

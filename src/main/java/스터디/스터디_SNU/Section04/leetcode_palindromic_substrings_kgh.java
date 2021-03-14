@@ -12,18 +12,21 @@ public class leetcode_palindromic_substrings_kgh {
     public static void main(String[] args) {
 //        countSubstrings("abc");
         System.out.println();
-//        countSubstrings("aaa");
+        countSubstrings("aaa");
         System.out.println();
-        countSubstrings("abacde");
+//        countSubstrings("abacde");
     }
 
     private static void countSubstrings(String s) {
         int cnt = 0;
         for(int i=0; i<s.length(); i++){
+            // 짝홀에 따라 다르기 때문에 어차피 cnt가 0으로 반환되니까 이렇게 처리하면 모든 경우의 수가 없어진다.
             cnt += palindromes(s, i, i);
+            System.out.println("cnt => " + cnt);
             cnt += palindromes(s, i, i+1);
+            System.out.println("cnt => " + cnt);
         }
-        System.out.println(cnt);
+        System.out.print(cnt);
     }
 
     // start = 1 end 1 홀수
@@ -32,14 +35,13 @@ public class leetcode_palindromic_substrings_kgh {
         int cnt = 0;
 //        System.out.println(start + "" + end);
         while(start >= 0 && end < s.length() && s.charAt(start) == s.charAt(end)){
-
             start--;
             end++;
             cnt++;
+//            System.out.println(cnt);
 //            if(start >= 0 && end < s.length()) System.out.println(start + " " + end);
-
         }
-        System.out.println(s.substring(start+1, end));
+//        System.out.print(s.substring(start+1, end));
 //        System.out.println((start+1) + " " + (end-1));
         return cnt;
     }

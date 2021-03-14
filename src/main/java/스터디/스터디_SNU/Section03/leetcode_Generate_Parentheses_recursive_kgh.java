@@ -1,4 +1,4 @@
-package 스터디_SNU.Section03;
+package 스터디.스터디_SNU.Section03;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,25 +39,14 @@ public class leetcode_Generate_Parentheses_recursive_kgh {
 
     private static boolean validString(String str) {
         Stack<Character> stack = new Stack<>();
-        boolean tf = true;
-        for(int i=0; i<str.length(); i++){
 
-            if(str.charAt(i) == '('){
-                stack.add(str.charAt(i));
-            }
-            if(str.charAt(i) == ')'){
-                if(!stack.isEmpty() && stack.peek() == '('){
-                    stack.pop();
-                    tf = true;
-                }else {
-                    tf = false;
-                    break;
-                }
+        for(char c : str.toCharArray()){
+            if(c == '('){
+                stack.add(')');
+            }else if(stack.isEmpty() || c != stack.pop()){
+                return false;
             }
         }
-        if(stack.size() > 0){
-            tf = false;
-        }
-        return tf;
+        return stack.isEmpty();
     }
 }

@@ -41,7 +41,6 @@ public class programmers_자물쇠열쇠_kgh {
         // 4방향 rotate2
         for(int k=0; k<4; k++){
             int[][] newKey = new int[keySize][keySize];
-
             // 키 회전 90도
             for(int i=0; i<keySize; i++){
                 for(int j=0; j<keySize; j++){

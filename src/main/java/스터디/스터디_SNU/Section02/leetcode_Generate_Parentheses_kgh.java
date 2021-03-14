@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
+ * https://leetcode.com/problems/generate-parentheses/
  * 1. 문제 풀이 시간: 30분
  * 2. 가능한 괄호조합 찾기 문제(dfs + valication check)
  * 3. 시간복잡도 O(N+N) 재귀호출 + 타당성 체크 O(N) => O(3N) => O(N)
@@ -23,32 +24,26 @@ public class leetcode_Generate_Parentheses_kgh {
         dfs(0, n, "");
         return answer;
     }
-    private static void dfs(int cnt, int n, String str) {
-        if(cnt == n*2){
-            if(validString(str)){
-                answer.add(str);
+
+    private static void dfs(int cnt, int n, String s) {
+        if(cnt == 2 * n){
+            if(validString(s)){
+                answer.add(s);
             }
             return;
         }
-        dfs(cnt+1, n, str+"(");
-        dfs(cnt+1, n, str+")");
+        dfs(cnt+1, n, s+"(");
+        dfs(cnt+1, n, s+")");
     }
 
-    private static boolean validString(String str) {
+    private static boolean validString(String s) {
         Stack<Character> stack = new Stack<>();
-        boolean tf = true;
-        for(int i=0; i<str.length(); i++){
-            if(str.charAt(i) == '('){
-                stack.add(str.charAt(i));
-            }
-            if(str.charAt(i) == ')'){
-                if(!stack.isEmpty() && stack.peek() == '('){
-                    stack.pop();
-                }else {
-                    return false;
-                }
+        for(char c : s.toCharArray()){
+            if(c == '(') stack.add(')');
+            else if(stack.isEmpty() || c != stack.pop()){
+                return false;
             }
         }
-        return stack.isEmpty() ? true : false;
+        return stack.isEmpty();
     }
 }

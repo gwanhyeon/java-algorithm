@@ -59,7 +59,8 @@ public class 투포인트알고리즘 {
         int sum = 0;
         int end = 0;
 
-        for(int start=0; start<data.length; start++){
+        int start = 0;
+        while(start<data.length){
             while(sum < m && end < n){
                 sum += data[end];
                 end++;
@@ -68,7 +69,7 @@ public class 투포인트알고리즘 {
             if(sum == m){
                 answer++;
             }
-            sum -= data[start];
+            sum -= data[start++];
         }
         System.out.println(answer);
     }

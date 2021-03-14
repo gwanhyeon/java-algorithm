@@ -29,6 +29,7 @@ public class leetcode_Longest_Substring_Without_Repeating_Characters_kgh {
         int ans = 0;
         int start = 0;
         int end = 0;
+
         while (start < n && end < n) {
             // hashset에 포함되지 않았을 경우 해당 문자 add
             if (!hs.contains(s.charAt(end))){

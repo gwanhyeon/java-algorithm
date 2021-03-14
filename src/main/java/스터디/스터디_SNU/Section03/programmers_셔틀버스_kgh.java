@@ -25,7 +25,9 @@ public class programmers_셔틀버스_kgh {
 
         String lastBusTime = busTime[n-1];
         Arrays.sort(timetable);
+        // 탑승객 현재 위치
         int curPosition =0;
+        // 현재 탑승객
         int curAdded = 0;
         String busStop = "";
 

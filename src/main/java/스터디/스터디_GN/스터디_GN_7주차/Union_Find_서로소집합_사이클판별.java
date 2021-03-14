@@ -15,7 +15,6 @@ public class Union_Find_서로소집합_사이클판별 {
     static int v,e;
     static int[] parent = new int[100001];
     public static void main(String[] args) throws IOException {
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         v = Integer.parseInt(st.nextToken());
@@ -40,9 +39,9 @@ public class Union_Find_서로소집합_사이클판별 {
             }
         }
         if(isCheckCycle){
-            System.out.println("싸이클입니다.");
+            System.out.println("isCycle");
         }else {
-            System.out.println("none Cycle");
+            System.out.println("None Cycle");
         }
     }
     private static void unionParent(int x, int y) {

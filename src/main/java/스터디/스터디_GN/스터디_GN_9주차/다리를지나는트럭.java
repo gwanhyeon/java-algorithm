@@ -8,6 +8,7 @@ public class 다리를지나는트럭 {
         solution(2, 10,new int[]{7,4,5,6});
     }
     static int solution(int bridge_length, int weight, int[] truck_weights) {
+
         int answer = 0;
         int sum = 0;
         Queue<Integer> q = new LinkedList<>();

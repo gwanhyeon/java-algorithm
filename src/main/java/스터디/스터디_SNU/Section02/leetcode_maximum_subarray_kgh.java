@@ -23,9 +23,10 @@ public class leetcode_maximum_subarray_kgh {
     }
     static int maxSubArray(int[] nums) {
         for(int i=1; i<nums.length; i++){
-            nums[i] = Math.max(nums[i], nums[i]+ nums[i-1]);
+            nums[i] = Math.max(nums[i], nums[i] + nums[i-1]);
         }
         Arrays.sort(nums);
+        System.out.println("nums[nums.length-1] = " + nums[nums.length - 1]);
         return nums[nums.length-1];
     }
     static int maxSubArrayBruteforce(int[] nums) {

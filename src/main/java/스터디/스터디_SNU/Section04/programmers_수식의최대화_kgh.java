@@ -42,27 +42,27 @@ public class programmers_수식의최대화_kgh {
     private static void dfs(String op, int cnt) {
 
         if(cnt == 3){
-
             List<Long> numbersCopy = new ArrayList<>(numbers);
             List<Character> calsCopy = new ArrayList<>(cals);
 
             for(int i=0; i<op.length(); i++){
                 for(int j=0; j<calsCopy.size(); j++){
                     if(op.charAt(i) == calsCopy.get(j)){
+                        Long startNum = numbersCopy.get(j);
+                        numbersCopy.remove(j);
+                        Long endNum = numbersCopy.get(j);
+                        numbersCopy.remove(j);
 
-                        Long start_num = numbersCopy.get(j);
-                        numbersCopy.remove(j);
-                        Long end_num = numbersCopy.get(j);
-                        numbersCopy.remove(j);
-                        Long res = 0L;
+                        Long sum = 0L;
                         // 연산자 계산
-                        if(op.charAt(i) == '+') res = start_num + end_num;
-                        else if(op.charAt(i) == '-') res = start_num - end_num;
-                        else if(op.charAt(i) == '*') res = start_num * end_num;
+                        if(op.charAt(i) == '+') sum = startNum + endNum;
+                        else if(op.charAt(i) == '-') sum = startNum - endNum;
+                        else if(op.charAt(i) == '*') sum = startNum * endNum;
 
                         // 연산값 넣어주기 갱신
-                        numbersCopy.add(j, res);
+                        numbersCopy.add(j, sum);
                         calsCopy.remove(j);
+
                         // 값을 하나 제거했으므로 이전부터 다시 값을 처리
                         j--;
                     }

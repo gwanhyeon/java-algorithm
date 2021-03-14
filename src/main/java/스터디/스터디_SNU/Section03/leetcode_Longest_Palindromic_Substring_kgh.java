@@ -12,8 +12,47 @@ public class leetcode_Longest_Palindromic_Substring_kgh {
 
     static int[][] dp;
     public static void main(String[] args) {
-        System.out.println(solution("babad"));
+//        System.out.println(solution("babad"));
+        System.out.println(solution1("babad"));
     }
+
+    /**
+     * 다른 방식으로 풀기
+     * @param s
+     * @return
+     */
+    private static String solution1(String s) {
+        if(s == null || s.length() < 1){
+            return "";
+        }
+        int start = 0;
+        int end = 0;
+
+        for(int i=0; i<s.length(); i++){
+            int oddLen = palindromic(s,i,i);
+            int evenLen = palindromic(s,i,i+1);
+            int len = Math.max(oddLen, evenLen);
+            if(len > end-start){
+                start = i - ((len-1)/ 2);
+                end = i + (len / 2);
+            }
+        }
+        System.out.println(s.substring(start, end+1));
+        return s.substring(start, end+1);
+    }
+
+    private static int palindromic(String s, int start, int end) {
+
+        if(s == null || start > end){
+            return 0;
+        }
+        while(start >= 0 && end < s.length() && s.charAt(start) == s.charAt(end)){
+            start--;
+            end++;
+        }
+        return end-start-1;
+    }
+
     private static String solution(String s) {
         int len = s.length();
         dp = new int[len][len];

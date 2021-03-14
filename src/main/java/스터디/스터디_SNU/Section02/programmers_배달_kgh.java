@@ -58,7 +58,6 @@ public class programmers_배달_kgh {
         }
         return answer;
     }
-
     private static void bfs(int x) {
         check[x] = 0;
         pq.offer(new Pair(x, 0));
@@ -92,7 +91,6 @@ public class programmers_배달_kgh {
             return this.value - pair.value;
         }
     }
-
 }
 
 /* 정답 21.9% 인접리스트 풀이 30분
