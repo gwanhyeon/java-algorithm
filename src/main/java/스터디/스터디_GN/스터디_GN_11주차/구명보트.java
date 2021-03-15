@@ -13,7 +13,7 @@ public class 구명보트 {
         Arrays.sort(people);
         int start = 0;
         int end = people.length-1;
-        while(start <= end){
+        while(start < end){
             // 둘이 보트를 같이 탄 경우라면 현재 인원에서 -1을 진행한다.
             // 몸무게가 가장 많은 사람을 기준으로 비교하는것이 좋은방법이다.
             if(people[start] + people[end] <= limit) {
