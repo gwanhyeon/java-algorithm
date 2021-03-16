@@ -48,6 +48,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Codility/FrogRiverOne_lesson04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codility/FrogRiverOne_lesson04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaGrammar/Generic/FruitBox2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaGrammar/Generic/FruitBox2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/기출문제/카카오인턴십2020/키패드누르기1번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기출문제/카카오인턴십2020/키패드누르기1번.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_11주차/구명보트.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_11주차/구명보트.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_11주차/위장.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_11주차/위장.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_1주차/모험가길드_그리디.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_1주차/모험가길드_그리디.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_7주차/Union_Find_서로소집합_사이클판별.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_7주차/Union_Find_서로소집합_사이클판별.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/나라의숫자124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_9주차/나라의숫자124.java" afterDir="false" />
@@ -79,6 +81,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_자물쇠열쇠_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_자물쇠열쇠_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_추석트래픽_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_추석트래픽_kgh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_튜플_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section13/programmers_튜플_kgh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_PartitionLabels_kgh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_PartitionLabels_kgh.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,20 +478,7 @@
       <recent name="스터디.스터디_SNU.Section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.programmers_가장먼노드_kgh">
-    <configuration name="메뉴리뉴얼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level2.메뉴리뉴얼" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="프로그래머스.Level2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.programmers_N개의최소공배수_kgh">
     <configuration name="미래도시" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_GN.스터디_GN_6주차.미래도시" />
       <module name="algorithm.main" />
@@ -801,12 +791,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_Generate_Parentheses_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section02.leetcode_Generate_Parentheses_kgh" />
+    <configuration name="leetcode_PartitionLabels_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section14.leetcode_PartitionLabels_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section02.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -814,12 +804,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_Generate_Parentheses_recursive_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section03.leetcode_Generate_Parentheses_recursive_kgh" />
+    <configuration name="leetcode_subsets_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section14.leetcode_subsets_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section03.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -827,12 +817,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_palindromic_substrings_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section04.leetcode_palindromic_substrings_kgh" />
+    <configuration name="leetcode_wordbreak_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section14.leetcode_wordbreak_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section04.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_N개의최소공배수_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section14.programmers_N개의최소공배수_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -848,6 +851,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_스타수열_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section14.programmers_스타수열_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1336,11 +1352,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetcode_palindromic_substrings_kgh" />
-        <item itemvalue="Application.leetcode_Generate_Parentheses_recursive_kgh" />
-        <item itemvalue="Application.leetcode_Generate_Parentheses_kgh" />
+        <item itemvalue="Application.programmers_N개의최소공배수_kgh" />
+        <item itemvalue="Application.programmers_스타수열_kgh" />
+        <item itemvalue="Application.leetcode_wordbreak_kgh" />
+        <item itemvalue="Application.leetcode_subsets_kgh" />
+        <item itemvalue="Application.leetcode_PartitionLabels_kgh" />
       </list>
     </recent_temporary>
   </component>
@@ -1514,7 +1545,7 @@
       <workItem from="1615080334583" duration="71633000" />
       <workItem from="1615510116480" duration="695000" />
       <workItem from="1615529237859" duration="2205000" />
-      <workItem from="1615604921583" duration="301000" />
+      <workItem from="1615604921583" duration="49746000" />
     </task>
     <servers />
   </component>
@@ -2458,6 +2489,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section03/programmers_기지국설치_kgh.java</url>
           <line>26</line>
           <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_PartitionLabels_kgh.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_subsets_kgh.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_subsets_kgh.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_wordbreak_kgh.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="526" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/leetcode_wordbreak_kgh.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/스터디/스터디_SNU/Section14/programmers_스타수열_kgh.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="528" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/알고리즘유형별/Graph/DFSBFS_ARR1260.java</url>
