@@ -55,13 +55,13 @@ public class leetcode_PartitionLabels_kgh {
         // 문자의 마지막인덱스에 해당하는값을 구해줍니다. 소문자의 갯수는 26개이므로 알파벳의 위치가 idx가 되고, 값이 몇번째 인덱스의 값인지를 넣어줍니다.
         // lastIdx[a-z 알파벳의 인덱스] = 몇번째 위치에 해당되는지
         for (int i = 0; i < S.length(); i++) {
-            lastIdx[S.charAt(i) - 'a'] = i;
+            lastIdx[S.charAt(i) -'a'] = i;
         }
         int maxIdx = 0;
         int partitionPoint = 0;
         List<Integer> arrList = new ArrayList();
         for (int i = 0; i < S.length(); i++) {
-            maxIdx = Math.max(maxIdx, lastIdx[S.charAt(i) - 'a']);
+            maxIdx = Math.max(maxIdx, lastIdx[S.charAt(i) -'a']);
             // i가 파티션의 끝에 있는 경우 해당 i 인덱스의 값에서 파티셔닝 시작값을 빼주면 해당되는 길이가 리턴됩니다. +1을 해주는 이유는 인덱스가 0부터 시작하기 때문입니다.
             if (i == maxIdx) {
                 // 최대 위치 - 시작 위치 + 1
