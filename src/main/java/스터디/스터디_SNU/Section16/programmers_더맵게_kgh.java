@@ -2,27 +2,23 @@ package 스터디.스터디_SNU.Section16;
 
 import java.util.PriorityQueue;
 
+/**
+ * 1. 문제 풀이 시간: 20분
+ * 2. 컴퓨팅 사고
+ * (1) 우선순위큐를 사용하여 큐에 넣어줄때마다 작은값으로 갱신처리한다.
+ * (2) 우선순위큐가 비지 않았고, 맨 앞에서 꺼낸값이 K보다 작을때 반복문을 진행한다.
+ * K보다 작다는것은 더이상 진행할 필요가 없다는 뜻과 같습니다.
+ * (3) 만약 맨앞에 값을 빼고나서 사이즈가 0이라면 첫번째, 두번째의 값을 비교할 수 없으므로 answer를 -1로 리턴해줍니다.
+ * (4) 그게 아니라면 첫번째 값 + 두번째값 * 2를 수행해서 우선순위큐에 넣으면서 갱신을 진행합니다.
+ * (5) 현재까지 진행한 횟수값을 카운팅해줍니다.
+ * 3. 시간복잡도
+ */
 public class programmers_더맵게_kgh {
     public static void main(String[] args) {
-//        solution(new int[]{1,2,3,9,10,12}, 7);
-//        solution(new int[]{1,1,1,1,1,1}, 100);
-//        solution(new int[]{8, 10, 11}, 7);
-//        solution(new int[]{1,1,100}, 3);
-        // 예외 케이스
-//        scoville = {8, 10, 11} 인데 K = 7 인 경우 0 이나와야 합니다.
-        // 16번 테스트 케이스
-        //scoville : [1,2,3] K : 11
-        //
-        //이 케이스를 통과한다면 16번 통과할듯합니다..
-        //딱맞게 K 를 통과하는 음식이 하나로 만들어지는 경우를 따지는 테스트인듯하네요.
-        //저도 이거 때매 조금 헤메였기때문에 올려봅니다..
-        //
-        //작성중인
-        solution(new int[]{1,2,3}, 11);
-        // 1 + 4
-        // 5 + 6
-
-
+        solution(new int[]{1,2,3,9,10,12}, 7);
+        solution(new int[]{1,1,1,1,1,1}, 100);
+        solution(new int[]{8, 10, 11}, 7);
+        solution(new int[]{1,1,100}, 3);
     }
     static int solution(int[] scoville, int K) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
@@ -37,10 +33,9 @@ public class programmers_더맵게_kgh {
             }
             int secondFood = pq.remove();
             int totalFoods = (firstFood + (secondFood * 2));
-            answer++;
             pq.add(totalFoods);
+            answer++;
         }
-//        System.out.println("answer = " + answer);
         return answer;
     }
 }
