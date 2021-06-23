@@ -21,7 +21,6 @@ public class StringCompression {
             sb.append(v.toString() + k);
         });
         return sb.toString();
-
     }
     static public String compression2(String str) {
         int i = 0;
