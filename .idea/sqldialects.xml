@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/src/main/java/스터디/스터디_GN/스터디_GN_14_주차/최솟값구하기.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/_2021/스터디/스터디_GN/스터디_GN_14_주차/최솟값구하기.sql" dialect="GenericSQL" />
     <file url="PROJECT" dialect="Oracle" />
   </component>
 </project>

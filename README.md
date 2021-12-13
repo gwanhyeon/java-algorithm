@@ -1,1 +1,6 @@
-# java-algorithm
+# Algorithm PS 
+
+- B
+- Leetcode
+- Hackerank
+- f
