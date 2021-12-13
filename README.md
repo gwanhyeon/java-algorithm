@@ -1,6 +1,4 @@
-# Algorithm PS 
-
-- B
-- Leetcode
+# Algorithm PS
+- acm-icpc
+- leetcode
 - Hackerank
-- f
