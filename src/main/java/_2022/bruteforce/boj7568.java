@@ -39,7 +39,7 @@ public class boj7568 {
             dfs(weight[i], stature[i], 0, 0, 0, n);
             answer.add(cnt);
             cnt = 1;
-            isCheckValue[i] = false;
+            isCheck[i] = false;
         }
 
         for(int i=0; i<answer.size(); i++){
