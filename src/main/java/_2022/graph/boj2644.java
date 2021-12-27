@@ -20,6 +20,7 @@ public class boj2644 {
 
         isCheck = new int[n+1];
         graphList = new ArrayList<>();
+
         // The Number of Nodes
         for(int i=0; i<=n; i++){
             graphList.add(new ArrayList<>());
