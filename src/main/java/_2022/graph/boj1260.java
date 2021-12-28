@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+/**
+ * 그래프 순회 - BOJ 1260 BFS DFS
+ *
+ */
 public class boj1260 {
     static int n;
     static int m;
@@ -12,6 +16,7 @@ public class boj1260 {
     static int[] isCheck;
     static List<List<Integer>> graphList;
     public static void main(String[] args) throws IOException {
+
         // variable declaration
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
