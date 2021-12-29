@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+/* boj 2644 촌수 계산 */
 public class boj2644 {
     static List<List<Integer>> graphList;
     static int[] isCheck;
