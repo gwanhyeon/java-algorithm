@@ -6,7 +6,9 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
-
+/*
+boj 15649 backtracking nm 시리즈(1)
+ */
 public class boj15649 {
     static boolean[] isNumberCheck;
     static LinkedList<Integer> numbers;
