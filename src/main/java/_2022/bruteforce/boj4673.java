@@ -11,6 +11,7 @@ package _2022.bruteforce;
 public class boj4673 {
     static boolean[] isSelfNumber;
     public static void main(String[] args) {
+        System.out.println(selfNumber(111));
         int n = 10000;
         isSelfNumber = new boolean[n+1];
         for(int i=1; i<n; i++){
