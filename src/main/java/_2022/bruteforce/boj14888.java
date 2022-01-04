@@ -32,9 +32,8 @@ public class boj14888 {
         int d = Integer.parseInt(st.nextToken());
 
         dfs(numbers[0], a,b,c,d,numbers,n,1);
-        Collections.sort(answer);
-        System.out.println(answer.get(0));
-
+        System.out.println(Collections.max(answer));
+        System.out.println(Collections.min(answer));
 
     }
 
