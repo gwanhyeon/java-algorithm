@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="feat: boj 18352 dijkstra">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/_2022/dp/boj1463.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/_2022/dp/boj1463.class" afterDir="false" />
-    </list>
+    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="feat: boj 14888 bruteforce" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1426,7 +1423,7 @@
       <workItem from="1640699546241" duration="3095000" />
       <workItem from="1640787990491" duration="3487000" />
       <workItem from="1640870040738" duration="15204000" />
-      <workItem from="1641307345254" duration="859000" />
+      <workItem from="1641307345254" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 프로젝트 소스코드 정리">
       <created>1639403500788</created>
@@ -1491,7 +1488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641220407297</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: boj 14888 bruteforce">
+      <created>1641308260984</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641308260984</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1579,7 +1583,8 @@
     <MESSAGE value="feat: boj 2644 촌수계산" />
     <MESSAGE value="feat: boj 15649 backtracking" />
     <MESSAGE value="feat: boj 18352 dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 18352 dijkstra" />
+    <MESSAGE value="feat: boj 14888 bruteforce" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 14888 bruteforce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
