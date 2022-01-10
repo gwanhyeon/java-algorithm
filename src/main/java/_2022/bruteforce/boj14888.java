@@ -21,7 +21,6 @@ public class boj14888 {
         answer = new ArrayList<>();
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-
         for(int i=0; i<n; i++){
             numbers[i] = Integer.parseInt(st.nextToken());
         }
@@ -37,6 +36,17 @@ public class boj14888 {
 
     }
 
+    /**
+     *
+     * @param sum 연산 결과
+     * @param a 덧셈
+     * @param b 뺼셈
+     * @param c 곱하기
+     * @param d 나누기
+     * @param numbers 수 배열
+     * @param n 수 개수
+     * @param idx 수 선택
+     */
     private static void dfs(int sum, int a, int b, int c, int d, int[] numbers, int n, int idx) {
         if(idx == n){
             answer.add(sum);

@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
+/* boj 15650 n과 m(2) 브루트 포스 */
+
 public class boj15650 {
     static boolean[] isValidation;
     static LinkedList<Integer> numbers;
