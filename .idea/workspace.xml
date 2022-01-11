@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="git commit -m &quot;feat: Add leetcode prudct of array except self&quot; --date &quot;Sun 4 Apr 2021 20:19:19 KST&quot;">
+    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="feat: boj 15652 nm(4) series">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1401,7 +1408,7 @@
       <workItem from="1640870040738" duration="15204000" />
       <workItem from="1641307345254" duration="1697000" />
       <workItem from="1641825567748" duration="2425000" />
-      <workItem from="1641911605274" duration="1415000" />
+      <workItem from="1641911605274" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 프로젝트 소스코드 정리">
       <created>1639403500788</created>
@@ -1508,7 +1515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641826489324</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: boj 15652 nm(4) series">
+      <created>1641913056196</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1641913056204</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1599,7 +1613,8 @@
     <MESSAGE value="feat: boj 14888 bruteforce" />
     <MESSAGE value="feat: boj 14888 bruteforce refactoring" />
     <MESSAGE value="feat: boj 15651 backtracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 15651 backtracking" />
+    <MESSAGE value="feat: boj 15652 nm(4) series" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 15652 nm(4) series" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
