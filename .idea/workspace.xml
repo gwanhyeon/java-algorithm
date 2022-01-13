@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="feat: boj 15652 nm(4) series">
+    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="feat: boj 15652 the same combination">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/_2022/backtracking/boj15652.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/_2022/backtracking/boj15652.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,7 +433,7 @@
       <recent name="스터디.스터디_SNU.Section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj15652">
+  <component name="RunManager" selected="Application.boj15653">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -641,19 +642,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2022.dp.boj1463" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2022.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="boj14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2022.bruteforce.boj14888" />
       <module name="algorithm.main" />
@@ -682,6 +670,19 @@
     </configuration>
     <configuration name="boj15652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2022.backtracking.boj15652" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2022.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj15653" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2022.backtracking.boj15653" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -1217,11 +1218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj15653" />
         <item itemvalue="Application.boj15652" />
         <item itemvalue="Application.boj15651" />
         <item itemvalue="Application.boj14888" />
         <item itemvalue="Application.boj18352" />
-        <item itemvalue="Application.boj1463" />
       </list>
     </recent_temporary>
   </component>
@@ -1408,7 +1409,7 @@
       <workItem from="1640870040738" duration="15204000" />
       <workItem from="1641307345254" duration="1697000" />
       <workItem from="1641825567748" duration="2425000" />
-      <workItem from="1641911605274" duration="2053000" />
+      <workItem from="1641911605274" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 프로젝트 소스코드 정리">
       <created>1639403500788</created>
@@ -1522,7 +1523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641913056204</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: boj 15652 the same combination">
+      <created>1641913792530</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1641913792530</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1614,7 +1622,8 @@
     <MESSAGE value="feat: boj 14888 bruteforce refactoring" />
     <MESSAGE value="feat: boj 15651 backtracking" />
     <MESSAGE value="feat: boj 15652 nm(4) series" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 15652 nm(4) series" />
+    <MESSAGE value="feat: boj 15652 the same combination" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 15652 the same combination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
