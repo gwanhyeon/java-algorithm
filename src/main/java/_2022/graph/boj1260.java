@@ -73,6 +73,7 @@ public class boj1260 {
             }
         }
     }
+
     public static void dfs(int x){
         isCheck[x] = 1;
         System.out.print(x +  " ");
