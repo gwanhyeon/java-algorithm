@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="feat: boj 15652 the same combination">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="5dc49aa8-65a1-4c57-9118-4e40e9babd56" name="Default Changelist" comment="chore: boj15653 clean up files">
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/_2022/backtracking/boj15653.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_2022/backtracking/boj15653.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/_2022/backtracking/boj15652.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/_2022/backtracking/boj15652.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2021/개인문제풀이/TermProject9466.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2021/개인문제풀이/TermProject9466.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +428,7 @@
       <recent name="스터디.스터디_SNU.Section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.boj15653">
+  <component name="RunManager" selected="Application.boj9012">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -443,19 +438,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="콜라츠추측" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.Level1.콜라츠추측" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="프로그래머스.Level1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -642,12 +624,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2022.bruteforce.boj14888" />
+    <configuration name="boj10828" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2022.datastructure.boj10828" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2022.bruteforce.*" />
+          <option name="PATTERN" value="_2022.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -694,12 +676,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj18352" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2022.dijkstra.boj18352" />
+    <configuration name="boj9012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2022.datastructure.boj9012" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2022.dijkstra.*" />
+          <option name="PATTERN" value="_2022.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -715,175 +697,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_2021.스터디.스터디_SNU.Section09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_튜플_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_튜플_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_합승택시요금_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_합승택시요금_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_경주로건설_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_경주로건설_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_셔틀버스_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_셔틀버스_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_광고삽입_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_광고삽입_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_이중우선순위큐_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_이중우선순위큐_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_등굣길_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_등굣길_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_자물쇠열쇠_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_자물쇠열쇠_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_네트워크_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_네트워크_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -917,6 +730,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers_길찾기게임_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_길찾기게임_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="programmers_네트워크_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_네트워크_kgh" />
       <module name="algorithm.main" />
@@ -930,25 +756,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_소수찾기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_소수찾기_kgh" />
+    <configuration name="programmers_튜플_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_튜플_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -962,6 +775,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_SNU.Section03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_튜플_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_튜플_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1008,6 +834,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers_광고삽입_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_광고삽입_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="programmers_보석쇼핑_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section06.programmers_보석쇼핑_kgh" />
       <module name="algorithm.main" />
@@ -1021,25 +860,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_추석트래픽_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_추석트래픽_kgh" />
+    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_영어끝말잇기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_영어끝말잇기_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1053,6 +879,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_순위_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_순위_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1086,6 +925,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="programmers_가장긴팰린드롬_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section08.programmers_가장긴팰린드롬_kgh" />
       <module name="algorithm.main" />
@@ -1099,25 +951,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_수식의최대화_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section04.programmers_수식의최대화_kgh" />
+    <configuration name="programmers_소수찾기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_소수찾기_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_튜플_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_튜플_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
+          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1131,6 +970,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_가사검색_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section07.programmers_가사검색_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1164,6 +1016,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers_등굣길_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_등굣길_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
       <module name="algorithm.main" />
@@ -1177,25 +1042,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="programmers_길찾기게임_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_길찾기게임_kgh" />
+    <configuration name="programmers_추석트래픽_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_추석트래픽_kgh" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="programmers_순위_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section10.programmers_순위_kgh" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="스터디.스터디_SNU.Section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1216,13 +1068,143 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers_합승택시요금_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_합승택시요금_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_경주로건설_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_경주로건설_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_여행경로_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_여행경로_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_셔틀버스_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_셔틀버스_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_수식의최대화_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section04.programmers_수식의최대화_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_이중우선순위큐_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section11.programmers_이중우선순위큐_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_자물쇠열쇠_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section13.programmers_자물쇠열쇠_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_네트워크_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_네트워크_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_영어끝말잇기_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section12.programmers_영어끝말잇기_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="programmers_정수삼각형_kgh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스터디.스터디_SNU.Section09.programmers_정수삼각형_kgh" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="스터디.스터디_SNU.Section09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj9012" />
+        <item itemvalue="Application.boj10828" />
         <item itemvalue="Application.boj15653" />
         <item itemvalue="Application.boj15652" />
         <item itemvalue="Application.boj15651" />
-        <item itemvalue="Application.boj14888" />
-        <item itemvalue="Application.boj18352" />
       </list>
     </recent_temporary>
   </component>
@@ -1409,7 +1391,14 @@
       <workItem from="1640870040738" duration="15204000" />
       <workItem from="1641307345254" duration="1697000" />
       <workItem from="1641825567748" duration="2425000" />
-      <workItem from="1641911605274" duration="5087000" />
+      <workItem from="1641911605274" duration="7898000" />
+      <workItem from="1659367212495" duration="242000" />
+      <workItem from="1659541962517" duration="3062000" />
+      <workItem from="1664194840003" duration="2031000" />
+      <workItem from="1664978985708" duration="2531000" />
+      <workItem from="1665200331355" duration="9950000" />
+      <workItem from="1667605839967" duration="974000" />
+      <workItem from="1668748895583" duration="3550000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 프로젝트 소스코드 정리">
       <created>1639403500788</created>
@@ -1530,7 +1519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641913792530</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: boj 15653 required counter examination">
+      <created>1642084617660</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642084617660</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1623,7 +1619,9 @@
     <MESSAGE value="feat: boj 15651 backtracking" />
     <MESSAGE value="feat: boj 15652 nm(4) series" />
     <MESSAGE value="feat: boj 15652 the same combination" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: boj 15652 the same combination" />
+    <MESSAGE value="feat: boj 15653 required counter examination" />
+    <MESSAGE value="chore: boj15653 clean up files" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: boj15653 clean up files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
