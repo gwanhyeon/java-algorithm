@@ -7,7 +7,10 @@ package _2022.bruteforce;
 십의 자리 : (v % 100) / 10
 백의 자리 : (v % 1000) / 100
 천의 자리 : (v % 10000) / 1000
+
+33, 33+3+3
 */
+
 public class boj4673 {
     static boolean[] isSelfNumber;
     public static void main(String[] args) {
