@@ -21,9 +21,10 @@ public class boj9012 {
                 } else if (")".equals(brackets[j])) {
                     if (!stack.isEmpty() && "(".equals(stack.peek())) {
                         stack.pop();
-                    }else {
-                        isValid = true;
                     }
+                    /*else {
+                        isValid = true;
+                    }*/
                 }
             }
             if (stack.isEmpty() && !isValid) {
