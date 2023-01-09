@@ -47,6 +47,8 @@ public class boj_5567 {
             for(int i=0; i<graph.get(dx).size(); i++){
                 int mx = graph.get(dx).get(i);
                 if(visited[mx] == 0){
+                    System.out.println("dx " + dx);
+                    System.out.println("mx " + mx);
                     visited[mx] = visited[dx]+1;
                     q.add(mx);
                 }
