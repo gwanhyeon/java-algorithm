@@ -40,36 +40,31 @@ import java.io.InputStreamReader;
 119
  */
 public class boj_1065 {
-    static int answer = 0;
     public static void main(String[] args) throws IOException {
         // 등차 수열
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
+        int answer = 0;
+        if(n < 100){
+            answer = n;
+        }else {
+            answer = 99;
+            if (n == 1000) {
+                n = 999;
+            }
+            for (int i = 100; i <= n; i++) {
 
-        for(int i=1; i<=n; i++){
-            dfs(Integer.toString(i));
-        }
-        System.out.println(answer);
+                int first = (i % 1000) / 100;
+                int second = (i % 100) / 10;
+                int third = (i % 10);
 
-
-
-    }
-
-    private static void dfs(String num) {
-        if(num.length() == 1){
-            answer++;
-            return;
-        }
-        char[] nums = num.toCharArray();
-        int firstNumber = nums[0]-'0';
-        int secondNumber = nums[1]-'0';
-        int comp = Math.abs(firstNumber - secondNumber);
-        for(int i=1; i<nums.length-1; i++){
-            if(Math.abs((nums[i+1]-'0')-(nums[i]-'0')) == comp){
-                answer++;
-                return;
+                int comp = first - second;
+                if ((second - third) == comp) {
+                    answer++;
+                }
             }
         }
-
+        System.out.println(answer);
     }
+
 }

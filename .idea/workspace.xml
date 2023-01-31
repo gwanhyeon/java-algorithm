@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f50146ac-d1d2-4d29-81a9-db7547bf2afc" name="Changes" comment="feat: boj 2667">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_1065.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/boj_1065.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,16 +199,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/_2023/boj_2606.java</url>
           <line>85</line>
           <option name="timeStamp" value="533" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/_2023/boj_1065.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="535" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/_2023/boj_1065.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="536" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
