@@ -62,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.boj_4673">
+  <component name="RunManager" selected="Application.boj_1065">
     <configuration name="boj_1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.boj_1012" />
       <module name="algorithm.main" />
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1743" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.boj_1743" />
+    <configuration name="boj_1065" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.boj_1065" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.boj_2667" />
+    <configuration name="boj_1743" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.boj_1743" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1065" />
         <item itemvalue="Application.boj_4673" />
         <item itemvalue="Application.boj_2798" />
         <item itemvalue="Application.boj_1012" />
         <item itemvalue="Application.boj_1743" />
-        <item itemvalue="Application.boj_2667" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +198,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/_2023/boj_2606.java</url>
           <line>85</line>
           <option name="timeStamp" value="533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2023/boj_1065.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="535" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2023/boj_1065.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="536" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
