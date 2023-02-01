@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f50146ac-d1d2-4d29-81a9-db7547bf2afc" name="Changes" comment="feat: boj 2667">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_1065.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/boj_1065.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +32,20 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/gradlew" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/graph/boj11724.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/graph/boj2644.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/bruteforce/boj1065.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/gradlew.bat" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/settings.gradle" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/bruteforce/boj7568.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/bruteforce/boj4673.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home!/java.base/java/lang/StringLatin1.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/_2022/graph/boj1260.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home!/java.base/java/lang/StringIndexOutOfBoundsException.class" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/graph/boj11724.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/bruteforce/boj1065.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/bruteforce/boj4673.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/bruteforce/boj7568.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/_2022/sample/sample.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/_2022/graph/boj2644.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradlew.bat" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradlew" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,9 +63,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.Test" />
+=======
+  <component name="RunManager" selected="Application.boj_1065">
+    <configuration name="boj_1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.boj_1012" />
+>>>>>>> 87fa6f425dab765a52899cf3f7b0fefab53463db
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="boj_1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.boj_1012" />
+=======
+    <configuration name="boj_1065" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.boj_1065" />
+>>>>>>> 87fa6f425dab765a52899cf3f7b0fefab53463db
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -100,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.boj_2667" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2023.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="boj_2798" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.boj_2798" />
       <module name="algorithm.main" />
@@ -126,13 +127,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj_4673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.boj_4673" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2023.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.boj_2798" />
         <item itemvalue="Application.boj_1012" />
         <item itemvalue="Application.boj_1743" />
         <item itemvalue="Application.boj_2667" />
+=======
+        <item itemvalue="Application.boj_1065" />
+        <item itemvalue="Application.boj_4673" />
+        <item itemvalue="Application.boj_2798" />
+        <item itemvalue="Application.boj_1012" />
+        <item itemvalue="Application.boj_1743" />
+>>>>>>> 87fa6f425dab765a52899cf3f7b0fefab53463db
       </list>
     </recent_temporary>
   </component>
