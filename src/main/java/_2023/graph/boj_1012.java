@@ -1,4 +1,4 @@
-package _2023;
+package _2023.graph;
 /*
 유기농 배추 성공
 

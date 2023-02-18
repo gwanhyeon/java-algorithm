@@ -1,4 +1,4 @@
-package _2023;
+package _2023.graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;

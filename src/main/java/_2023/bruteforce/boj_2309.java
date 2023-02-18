@@ -1,4 +1,4 @@
-package _2023;
+package _2023.bruteforce;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

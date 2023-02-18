@@ -1,4 +1,4 @@
-package _2023;
+package _2023.bruteforce;
 
 /*
 덩치 성공

@@ -1,4 +1,4 @@
-package _2023;
+package _2023.bruteforce;
 
 /*
 셀프 넘버 성공다국어
