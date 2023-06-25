@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="feat: boj 2606">
+    <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_1065.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_1065.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_1743.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1743.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_2178.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_2309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_2309.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_2606.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_2606.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_2667.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_2798.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_2798.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_4673.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/boj_5567.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_5567.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1012$Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1012.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1065.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1260.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1743$Trash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1743.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2178$Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2178.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2309.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2606.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2667$Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2667.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2798.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_4673.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_5567.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_7568.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1260.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +39,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/settings.gradle" root0="FORCE_HIGHLIGHTING" />
@@ -49,8 +64,49 @@
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/gradlew" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RZ8L4lXuPynM8yNndOjBfwSK5H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager">
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RunManager" selected="Application.boj_1463">
+    <configuration name="boj_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.graph.boj_1260" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2023.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj_1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.dynamic.boj_1463" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2023.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="boj_2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.bruteforce.boj_2309" />
       <module name="algorithm.main" />
@@ -64,14 +120,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj_4673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.bruteforce.boj_4673" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2023.bruteforce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1463" />
+        <item itemvalue="Application.boj_1260" />
+        <item itemvalue="Application.boj_4673" />
         <item itemvalue="Application.boj_2309" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="" />
+      <created>1687446184048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687446184048</updated>
+      <workItem from="1687446185091" duration="8463000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

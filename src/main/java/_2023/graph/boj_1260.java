@@ -46,10 +46,10 @@ DFS와 BFS 성공
 1000 999
  */
 public class boj_1260 {
-    static List<List<Integer>> arrList = new ArrayList<>();
-    static int n = 0;
-    static int m = 0;
-    static int v = 0;
+    static int n;
+    static int m;
+    static int v;
+    static List<List<Integer>> arrList;
     static boolean[] isVisited;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -62,6 +62,7 @@ public class boj_1260 {
         for(int i=0; i<=n; i++){
             arrList.add(new ArrayList<>());
         }
+
         for(int i=0; i<m; i++){
             st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
@@ -69,30 +70,28 @@ public class boj_1260 {
             arrList.get(x).add(y);
             arrList.get(y).add(x);
         }
-        for(int i=0; i<arrList.size(); i++){
+        for(int i=0; i<=n; i++){
             Collections.sort(arrList.get(i));
         }
         dfs(v);
-        System.out.println();
         Arrays.fill(isVisited, false);
+        System.out.println();
         bfs(v);
     }
-
-    private static void dfs(int v) {
+    static void dfs(int v){
         isVisited[v] = true;
         System.out.print(v + " ");
         for(int i=0; i<arrList.get(v).size(); i++){
-            int x = arrList.get(v).get(i);
-            if(!isVisited[x]){
-                dfs(x);
+            int target = arrList.get(v).get(i);
+            if(!isVisited[target]){
+                dfs(target);
             }
         }
     }
-
-    private static void bfs(int v) {
+    static void bfs(int v){
         Queue<Integer> q = new LinkedList<>();
         q.add(v);
-        isVisited[v] = true;
+        isVisited[v] =true;
 
         while(!q.isEmpty()){
             int x = q.poll();
@@ -100,10 +99,14 @@ public class boj_1260 {
             for(int i=0; i<arrList.get(x).size(); i++){
                 int y = arrList.get(x).get(i);
                 if(!isVisited[y]){
-                    isVisited[y] = true;
-                    q.add(y);
+                    isVisited[y] =true;
+                    q.offer(y);
                 }
+
             }
         }
+
     }
+
 }
+

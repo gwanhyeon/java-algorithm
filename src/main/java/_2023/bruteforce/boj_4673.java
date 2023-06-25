@@ -1,5 +1,5 @@
 package _2023.bruteforce;
-
+//
 /*
 셀프 넘버 성공다국어
 
@@ -52,6 +52,45 @@ n을 d(n)의 생성자라고 한다. 위의 수열에서 33은 39의 생성자�
 9982
 9993
  */
+public class boj_4673{
+    final static int MAX_NUM = 10000;
+    static boolean[] selfNumber;
+    public static void main(String[] args) {
+        selfNumber = new boolean[MAX_NUM];
+        for(int i=1; i<=MAX_NUM; i++){
+            dfs(Integer.toString(i));
+        }
+
+        for(int i=1; i<MAX_NUM; i++){
+            if(!selfNumber[i]){
+                System.out.println(i);
+            }
+        }
+
+    }
+    private static void dfs(String num){
+        int answer = Integer.parseInt(num);
+
+        char[] nums = num.toCharArray();
+
+        for(char c : nums){
+            answer += (c-'0');
+        }
+        if(answer >= MAX_NUM){
+            return;
+        }
+
+        selfNumber[answer] = true;
+    }
+
+}
+
+
+
+
+
+
+/*
 public class boj_4673 {
     final static int MAX_NUM = 10000;
     static boolean[] selfNumber;
@@ -81,3 +120,4 @@ public class boj_4673 {
         selfNumber[answer] = true;
     }
 }
+*/
