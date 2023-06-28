@@ -61,69 +61,69 @@ N×M크기의 배열로 표현되는 미로가 있다.
 13
  */
 public class boj_2178 {
-    static int N;
-    static int M;
     static int[][] map;
-    static int[][] direction = {{1,0},{-1,0},{0, -1}, {0,1}};
-    static int[][] visited;
-    public static void main(String[] args) throws IOException {
+    static int[][] isChecked;
+    static int n;
+    static int m;
+    static int answer = 1;
+    static int[][] directions = {{1,0},{-1,0},{0,-1},{0,1}};
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
+        map = new int[n][m];
+        isChecked = new int[n][m];
 
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
-        map = new int[N][M];
-        visited = new int[N][M];
-
-        for(int i=0; i<N; i++){
-            String[] value = br.readLine().split("");
-            for(int j=0; j<M; j++){
-                map[i][j] = Integer.parseInt(value[j]);
+        for(int i=0; i<n; i++){
+            char[] c = br.readLine().toCharArray();
+            for(int j=0; j<c.length; j++){
+                map[i][j] = c[j]-'0';
             }
         }
+
         bfs(0,0);
-
-        System.out.println(visited[N-1][M-1]);
+        System.out.println(isChecked[n-1][m-1]);
     }
-
-    private static void bfs(int x, int y) {
-        Queue<Graph> q = new LinkedList<>();
+    static private void bfs(int x, int y){
+        Queue<Graph> q = new LinkedList<Graph>();
+        isChecked[x][y] = 1;
         q.add(new Graph(x,y));
-        visited[x][y] = 1;
 
         while(!q.isEmpty()){
             Graph g = q.poll();
             int dx = g.x;
             int dy = g.y;
             for(int i=0; i<4; i++){
-                int mx = dx + direction[i][0];
-                int my = dy + direction[i][1];
+                int mx = dx + directions[i][0];
+                int my = dy + directions[i][1];
+
                 if(isRange(mx,my)){
                     continue;
                 }
-                if(map[mx][my] == 1 && visited[mx][my] == 0) {
-                    visited[mx][my] = visited[dx][dy] + 1;
-                    q.add(new Graph(mx, my));
+
+                if(isChecked[mx][my] == 0 && map[mx][my] == 1){
+                    q.offer(new Graph(mx,my));
+                    isChecked[mx][my]= isChecked[dx][dy] + 1;
                 }
             }
         }
 
-
     }
-
-    private static boolean isRange(int mx, int my) {
-        if(mx < 0 || mx >= N || my < 0 || my >= M){
+    static private boolean isRange(int mx,int my){
+        if(mx < 0 || mx >= n || my < 0 || my >= m){
             return true;
         }
         return false;
     }
-
-    private static class Graph {
+    static class Graph{
         int x;
         int y;
+        public Graph(){}
         public Graph(int x,int y){
             this.x = x;
             this.y = y;
         }
+
     }
 }

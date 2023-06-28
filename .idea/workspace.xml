@@ -6,24 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1012$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1012.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1065.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1260.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1743$Trash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_1743.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2178$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2178.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2309.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2606.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2667$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2667.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_2798.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_4673.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_5567.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/boj_7568.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_1012$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_1012$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_1012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_1012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_2178$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_2178$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_2178.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2023/graph/boj_2178.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_2178.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +66,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.boj_1463">
+  <component name="RunManager" selected="Application.boj_1012">
+    <configuration name="boj_1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.graph.boj_1012" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2023.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="boj_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.graph.boj_1260" />
       <module name="algorithm.main" />
@@ -107,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.bruteforce.boj_2309" />
+    <configuration name="boj_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.graph.boj_2178" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_4673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.bruteforce.boj_4673" />
+    <configuration name="tets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2023.tets" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2023.bruteforce.*" />
+          <option name="PATTERN" value="_2023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1012" />
+        <item itemvalue="Application.boj_2178" />
+        <item itemvalue="Application.tets" />
         <item itemvalue="Application.boj_1463" />
         <item itemvalue="Application.boj_1260" />
-        <item itemvalue="Application.boj_4673" />
-        <item itemvalue="Application.boj_2309" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687446184048</updated>
-      <workItem from="1687446185091" duration="8463000" />
+      <workItem from="1687446185091" duration="9005000" />
+      <workItem from="1687681185755" duration="494000" />
+      <workItem from="1687787504753" duration="5003000" />
     </task>
     <servers />
   </component>
@@ -178,6 +183,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$.ic" NAME="압축 Coverage Results" MODIFIED="1599488473057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

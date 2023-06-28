@@ -72,84 +72,84 @@ import java.util.StringTokenizer;
 
 // x, y, 배추 위치
 public class boj_1012 {
-    static int t;
-    static int x;
-    static int y;
-    static int k;
     static int[][] map;
-    static boolean[][] isVisited;
-    static int[][] direction = {{1,0},{-1,0},{0,-1},{0,1}};
-    static int answer;
+    static boolean[][] isChecked;
+    static int m;
+    static int n;
+    static int k;
+    static int[][] directions = {{1,0},{-1,0},{0,-1},{0,1}};
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(br.readLine());
 
-        t = Integer.parseInt(br.readLine());
         while(t-- > 0){
+            int answer = 0;
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-            x = Integer.parseInt(st.nextToken());
-            y = Integer.parseInt(st.nextToken());
+            m = Integer.parseInt(st.nextToken());
+            n = Integer.parseInt(st.nextToken());
             k = Integer.parseInt(st.nextToken());
-            isVisited = new boolean[x][y];
-            map = new int[x][y];
-            answer = 0;
+            map = new int[m][n];
+            isChecked = new boolean[m][n];
             for(int i=0; i<k; i++){
                 st = new StringTokenizer(br.readLine(), " ");
-                int targetX = Integer.parseInt(st.nextToken());
-                int targetY = Integer.parseInt(st.nextToken());
-                map[targetX][targetY] = 1;
+                int x = Integer.parseInt(st.nextToken());
+                int y = Integer.parseInt(st.nextToken());
+                map[x][y] = 1;
             }
-
-            for(int i=0; i<x; i++){
-                for(int j=0; j<y; j++){
-                    if(map[i][j] == 1 && !isVisited[i][j]){
+            for(int i=0; i<m; i++){
+                for(int j=0; j<n; j++){
+                    if(map[i][j] == 1 && !isChecked[i][j]){
+                        bfs(i,j);
                         answer++;
-                        bfs(i, j);
                     }
                 }
             }
             System.out.println(answer);
         }
     }
-
-    private static void bfs(int x, int y) {
-        Queue<Graph> q = new LinkedList<>();
+    static private void bfs(int x,int y){
+        Queue<Graph> q = new LinkedList<Graph>();
+        isChecked[x][y] = true;
         q.add(new Graph(x,y));
-        isVisited[x][y] = true;
+
         while(!q.isEmpty()){
             Graph g = q.poll();
             int dx = g.x;
             int dy = g.y;
             for(int i=0; i<4; i++){
-                int mx = dx + direction[i][0];
-                int my = dy + direction[i][1];
+                int mx = dx+directions[i][0];
+                int my = dy+directions[i][1];
 
-                if(isRange(mx, my)){
+                if(isRange(mx,my)){
                     continue;
                 }
-                if(map[mx][my] == 1 && !isVisited[mx][my]){
-                    isVisited[mx][my] = true;
-                    q.add(new Graph(mx,my));
+                if(map[mx][my] == 1 && !isChecked[mx][my]){
+                    isChecked[mx][my] = true;
+                    q.offer(new Graph(mx,my));
                 }
             }
+
         }
 
-    }
 
-    private static boolean isRange(int mx, int my) {
-        if(mx < 0 || mx >= x || my < 0 || my >= y){
+    }
+    static private boolean isRange(int x,int y){
+        if(x < 0 || x >= m || y < 0 || y >= n){
             return true;
         }
         return false;
     }
-
-    public static class Graph{
+    static class Graph{
         int x;
         int y;
-        public Graph(int x, int y){
+        public Graph() {}
+        public Graph(int x,int y){
             this.x = x;
             this.y = y;
-
         }
 
     }
+
+
 }
