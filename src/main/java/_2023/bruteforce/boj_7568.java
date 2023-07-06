@@ -45,32 +45,52 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class boj_7568 {
-    static int[] w;
-    static int[] h;
+    static int w;
+    static int h;
+    static List<Person> personList;
     static List<Integer> answer;
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        StringTokenizer st = null;
-        w = new int[n];
-        h = new int[n];
+        StringTokenizer st;
+        personList = new ArrayList<>();
         answer = new ArrayList<>();
-
         for(int i=0; i<n; i++){
             st = new StringTokenizer(br.readLine(), " ");
-            w[i] = Integer.parseInt(st.nextToken());
-            h[i] = Integer.parseInt(st.nextToken());
+            w = Integer.parseInt(st.nextToken());
+            h = Integer.parseInt(st.nextToken());
+            personList.add(new Person(w,h));
         }
 
-        for(int i=0; i<n; i++){
-            int prize = 1;
-            for(int j=0; j<n; j++){
-                if(w[i] < w[j] && h[i] < h[j]){
-                    prize++;
+        for(int i=0; i<personList.size(); i++){
+            // 기준점
+            Person person = personList.get(i);
+            int targetW = person.w;
+            int targetH = person.h;
+            int cnt = 1;
+            for(int j=0; j<personList.size(); j++){
+                Person personComp = personList.get(j);
+                int compW = personComp.w;
+                int compH = personComp.h;
+                if(targetW < compW && targetH < compH){
+                    cnt++;
                 }
             }
-            System.out.println(prize);
+            System.out.print(cnt + " ");
         }
 
     }
+
+    static class Person{
+        int w;
+        int h;
+        public Person(int w, int h){
+            this.w = w;
+            this.h = h;
+        }
+    }
 }
+// 46 55 58 60 88
+// 155 185 183 175 186
+
+

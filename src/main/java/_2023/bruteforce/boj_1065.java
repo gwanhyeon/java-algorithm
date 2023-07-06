@@ -40,31 +40,29 @@ import java.io.InputStreamReader;
 119
  */
 public class boj_1065 {
-    public static void main(String[] args) throws IOException {
-        // 등차 수열
+    public static void main(String[] args) throws IOException{
+        // 각자리가 등차수열 = 한수
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+        int n  = Integer.parseInt(br.readLine());
         int answer = 0;
         if(n < 100){
             answer = n;
         }else {
             answer = 99;
-            if (n == 1000) {
+            if(n == 1000){
                 n = 999;
             }
-            for (int i = 100; i <= n; i++) {
-
-                int first = (i % 1000) / 100;
-                int second = (i % 100) / 10;
+            for(int i=100; i<= n; i++){
+                int first = (i%1000) / 100;
+                int second = (i%100) / 10;
                 int third = (i % 10);
-
-                int comp = first - second;
-                if ((second - third) == comp) {
+                int compare = first - second;
+                if((second-third) == compare){
                     answer++;
                 }
             }
         }
         System.out.println(answer);
     }
-
 }
+
