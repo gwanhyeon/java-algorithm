@@ -39,7 +39,6 @@ public class boj_1018 {
         int blackCnt = 0;
         int whiteCnt = 0;
 
-
         for(int i=start; i<start+8; i++){
             for(int j=end; j<end+8; j++){
                 if((i+j) % 2 == 0){

@@ -40,26 +40,24 @@ boj_2606
 //dfs
 
 public class boj_2606 {
-
     static List<List<Integer>> graphList;
     static boolean[] isVisited;
-    static int n;
-    static int m;
     static int answer;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        n = Integer.parseInt(br.readLine());
-        m = Integer.parseInt(br.readLine());
+        int v = Integer.parseInt(br.readLine());
+        int e = Integer.parseInt(br.readLine());
         graphList = new ArrayList<>();
-        isVisited = new boolean[n+1];
+        isVisited = new boolean[v];
         answer = 0;
-        for(int i=0; i<n+1; i++){
+        for(int i=0; i<v+1; i++){
             graphList.add(new ArrayList<>());
+
         }
         StringTokenizer st;
 
-        for(int i=0; i<m; i++){
-            st = new StringTokenizer(br.readLine());
+        for(int i=0; i<e; i++){
+            st = new StringTokenizer(br.readLine(), " ");
             int x = Integer.parseInt(st.nextToken());
             int y = Integer.parseInt(st.nextToken());
             graphList.get(x).add(y);
@@ -68,10 +66,10 @@ public class boj_2606 {
         dfs(1);
         System.out.println(answer);
     }
-    private static void dfs(int x){
-        isVisited[x] = true;
-        for(int i=0; i<graphList.get(x).size(); i++){
-            int y = graphList.get(x).get(i);
+    static private void dfs(int start){
+        isVisited[start] = true;
+        for(int i=0; i<graphList.get(start).size(); i++){
+            int y = graphList.get(start).get(i);
             if(!isVisited[y]){
                 isVisited[y] = true;
                 dfs(y);
@@ -81,53 +79,3 @@ public class boj_2606 {
     }
 }
 
-
-// bfs
-/*public class boj_2606 {
-    static int computerSize = 0;
-    static int computerEdgeSize = 0;
-    static List<List<Integer>> arrList;
-    static int[] virus;
-    static int answer = 0;
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        computerSize = Integer.parseInt(br.readLine());
-        computerEdgeSize = Integer.parseInt(br.readLine());
-        StringTokenizer st;
-        virus = new int[computerSize+1];
-        answer = 0;
-        arrList = new ArrayList<>();
-        for(int i=0; i<=computerSize; i++){
-            arrList.add(new ArrayList<>());
-        }
-
-        for(int i=0; i<computerEdgeSize; i++){
-            st = new StringTokenizer(br.readLine());
-
-            int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parseInt(st.nextToken());
-            arrList.get(x).add(y);
-            arrList.get(y).add(x);
-        }
-        bfs(1);
-        System.out.println(answer);
-    }
-
-    private static void bfs(int x) {
-        Queue<Integer> q = new LinkedList<>();
-        virus[x] = 1;
-        q.add(x);
-        while(!q.isEmpty()){
-            int dx = q.poll();
-            for(int i=0; i<arrList.get(dx).size(); i++){
-                int mx = arrList.get(dx).get(i);
-                if(virus[mx] == 0){
-                    answer++;
-                    virus[mx] = virus[dx] + 1;
-                    q.add(mx);
-                }
-            }
-        }
-
-    }
-}*/
