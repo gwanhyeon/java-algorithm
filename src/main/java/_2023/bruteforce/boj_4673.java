@@ -70,9 +70,7 @@ public class boj_4673{
     }
     private static void dfs(String num){
         int answer = Integer.parseInt(num);
-
         char[] nums = num.toCharArray();
-
         for(char c : nums){
             answer += (c-'0');
         }
