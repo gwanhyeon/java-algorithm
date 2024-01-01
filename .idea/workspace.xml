@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/bruteforce/boj_4673.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/programmers/나머지가1이되는수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/programmers/나머지가1이되는수찾기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/programmers/약수의합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/programmers/약수의합.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,20 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.나머지가1이되는수찾기">
+  <component name="RunManager" selected="Application.약수의합">
+    <configuration name="약수의합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.programmers.약수의합" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024.programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="나머지가1이되는수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.programmers.나머지가1이되는수찾기" />
       <module name="algorithm.main" />
@@ -80,19 +94,6 @@
     </configuration>
     <configuration name="boj_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2023.bruteforce.boj_1018" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2023.bruteforce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_1065" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.bruteforce.boj_1065" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.약수의합" />
         <item itemvalue="Application.나머지가1이되는수찾기" />
         <item itemvalue="Application.boj_2606" />
         <item itemvalue="Application.boj_1018" />
         <item itemvalue="Application.boj_7568" />
-        <item itemvalue="Application.boj_1065" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,7 @@
       <workItem from="1688659485625" duration="7187000" />
       <workItem from="1691869682836" duration="23000" />
       <workItem from="1691885462759" duration="10230000" />
-      <workItem from="1703935334583" duration="4665000" />
+      <workItem from="1703935334583" duration="6067000" />
     </task>
     <servers />
   </component>
