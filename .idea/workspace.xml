@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.x만큼간격있는n개의숫자">
+  <component name="RunManager" selected="Application.자릿수더하기">
     <configuration name="약수의합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.programmers.약수의합" />
       <module name="algorithm.main" />
@@ -90,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2023.graph.boj_2606" />
+    <configuration name="자릿수더하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.programmers.자릿수더하기" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2023.graph.*" />
+          <option name="PATTERN" value="_2024.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.자릿수더하기" />
         <item itemvalue="Application.x만큼간격있는n개의숫자" />
         <item itemvalue="Application.문자열내p와y의개수" />
         <item itemvalue="Application.약수의합" />
         <item itemvalue="Application.나머지가1이되는수찾기" />
-        <item itemvalue="Application.boj_2606" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,7 @@
       <workItem from="1688659485625" duration="7187000" />
       <workItem from="1691869682836" duration="23000" />
       <workItem from="1691885462759" duration="10230000" />
-      <workItem from="1703935334583" duration="9616000" />
+      <workItem from="1703935334583" duration="10491000" />
     </task>
     <servers />
   </component>
