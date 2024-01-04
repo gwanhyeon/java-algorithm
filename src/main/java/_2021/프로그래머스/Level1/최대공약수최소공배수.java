@@ -2,7 +2,7 @@ package _2021.프로그래머스.Level1;
 
 public class 최대공약수최소공배수 {
     public static void main(String[] args) {
-        solution(3,12);
+        solution(8,12);
     }
     static int[] solution(int n, int m) {
         int[] answer = {};
