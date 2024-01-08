@@ -63,7 +63,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.콜라츠추측">
+  <component name="RunManager" selected="Application.서울에서김서방찾기">
     <configuration name="콜라츠추측" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.programmers.콜라츠추측" />
       <module name="algorithm.main" />
@@ -116,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.programmers.test" />
+    <configuration name="서울에서김서방찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.programmers.서울에서김서방찾기" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.서울에서김서방찾기" />
         <item itemvalue="Application.콜라츠추측" />
         <item itemvalue="Application.음양더하기" />
         <item itemvalue="Application.두정수사이의합" />
         <item itemvalue="Application.에라토스테네스의체" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <workItem from="1688659485625" duration="7187000" />
       <workItem from="1691869682836" duration="23000" />
       <workItem from="1691885462759" duration="10230000" />
-      <workItem from="1703935334583" duration="20935000" />
+      <workItem from="1703935334583" duration="21281000" />
     </task>
     <servers />
   </component>
