@@ -1,4 +1,4 @@
-package _2024.programmers;
+package _2024.programmers_01;
 
 import java.util.stream.IntStream;
 

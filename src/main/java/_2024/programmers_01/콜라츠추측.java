@@ -1,4 +1,4 @@
-package _2024.programmers;
+package _2024.programmers_01;
 
 public class 콜라츠추측 {
     public static void main(String[] args) {

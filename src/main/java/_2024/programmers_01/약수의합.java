@@ -1,4 +1,4 @@
-package _2024.programmers;
+package _2024.programmers_01;
 
 public class 약수의합 {
     public static void main(String[] args) {

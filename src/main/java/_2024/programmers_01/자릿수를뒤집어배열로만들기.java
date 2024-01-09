@@ -1,7 +1,4 @@
-package _2024.programmers;
-
-import java.util.ArrayList;
-import java.util.List;
+package _2024.programmers_01;
 
 public class 자릿수를뒤집어배열로만들기 {
     public static void main(String[] args) {

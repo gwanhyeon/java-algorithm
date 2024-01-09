@@ -1,6 +1,4 @@
-package _2024.programmers;
-
-import java.util.Locale;
+package _2024.programmers_01;
 
 public class 문자열내p와y의개수 {
     public static void main(String[] args) {
