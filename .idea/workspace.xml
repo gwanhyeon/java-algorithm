@@ -6,29 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/x만큼간격있는n개의숫자.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/나누어떨어지는숫자배열.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/나머지가1이되는수찾기$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/나머지가1이되는수찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/두정수사이의합.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/문자열내p와y의개수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/문자열정수로바꾸기$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/문자열정수로바꾸기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/서울에서김서방찾기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/약수의합$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/약수의합.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/없는숫자더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/에라토스테네스의체.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/음양더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/자릿수더하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/자릿수를뒤집어배열로만들기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/정수의제곱근판별.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/콜라츠추측.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/평균구하기$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/평균구하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/하샤드의수.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/programmers/핸드폰번호가리기.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +63,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.가운데글자가져오기">
-    <configuration name="콜라츠추측" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.programmers_01.콜라츠추측" />
+  <component name="RunManager" selected="Application.수박수박">
+    <configuration name="수박수박" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.programmers_01.수박수박" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.수박수박" />
         <item itemvalue="Application.가운데글자가져오기" />
         <item itemvalue="Application.핸드폰번호가리기" />
         <item itemvalue="Application.나누어떨어지는숫자배열" />
         <item itemvalue="Application.서울에서김서방찾기" />
-        <item itemvalue="Application.콜라츠추측" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +153,7 @@
       <workItem from="1688659485625" duration="7187000" />
       <workItem from="1691869682836" duration="23000" />
       <workItem from="1691885462759" duration="10230000" />
-      <workItem from="1703935334583" duration="27003000" />
+      <workItem from="1703935334583" duration="28658000" />
     </task>
     <servers />
   </component>
