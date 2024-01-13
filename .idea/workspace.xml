@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,22 +63,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.boj_2755">
+  <component name="RunManager" selected="Application.boj9093">
     <configuration name="수박수박" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.programmers_01.수박수박" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2024.programmers_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="핸드폰번호가리기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.programmers_01.핸드폰번호가리기" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -97,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_2024.programmers_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boj9093" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj9093" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024.baekjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj9093" />
         <item itemvalue="Application.boj_2755" />
         <item itemvalue="Application.boj_1012" />
         <item itemvalue="Application.수박수박" />
         <item itemvalue="Application.가운데글자가져오기" />
-        <item itemvalue="Application.핸드폰번호가리기" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,7 @@
       <workItem from="1688659485625" duration="7187000" />
       <workItem from="1691869682836" duration="23000" />
       <workItem from="1691885462759" duration="10230000" />
-      <workItem from="1703935334583" duration="37046000" />
+      <workItem from="1703935334583" duration="38002000" />
     </task>
     <servers />
   </component>
@@ -190,6 +189,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/_2023/graph/boj_1012.java</url>
           <line>154</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj9093.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
