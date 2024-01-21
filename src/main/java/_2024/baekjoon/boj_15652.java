@@ -4,8 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.StringTokenizer;
 
 public class boj_15652 {
     static boolean[] isVisited;
@@ -17,28 +17,32 @@ public class boj_15652 {
         // 조합문제
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        n = Integer.parseInt(br.readLine());
-        m = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
         isVisited = new boolean[n];
         arrList = new ArrayList<>();
         answer = new ArrayList<>();
         for(int i=1; i<=n; i++){
             arrList.add(i);
         }
-        Collections.reverse(arrList);
         dfs(0, 0);
 
     }
 
     private static void dfs(int idx, int cnt) {
         if(cnt == m){
-            for(int i=0; i<arrList.get(i); i++){
-
+            for (int i = 0; i < answer.size(); i++) {
+                System.out.print(answer.get(i) + " ");
             }
+            System.out.println();
             return;
         }
-        for(int i=n-1; i>=idx; i++){
+        for(int i=idx; i<n; i++){
+
+            answer.add(arrList.get(i));
             dfs(i, cnt+1);
+            answer.remove(answer.size()-1);
         }
     }
 
