@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class boj_2178 {
     static int[][] map;
-    static boolean[][] isVisited;
+    static int[][] isVisited;
     static int n;
     static int m;
     static int[][] dir = {{1,0},{-1,0},{0,-1},{0,1}};
@@ -20,7 +20,7 @@ public class boj_2178 {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
         map = new int[n][m];
-        isVisited = new boolean[n][m];
+        isVisited = new int[n][m];
         answer = 0;
         for(int i=0; i<n; i++){
             String read = br.readLine();
@@ -30,7 +30,7 @@ public class boj_2178 {
             }
         }
         bfs(0,0);
-        System.out.println(answer);
+        System.out.println(isVisited[n-1][m-1]);
 
 
     }
@@ -38,7 +38,7 @@ public class boj_2178 {
     private static void bfs(int x, int y) {
         Queue<Graph> q= new LinkedList<>();
         q.add(new Graph(x,y));
-        isVisited[x][y] = true;
+        isVisited[x][y] = 1;
         while(!q.isEmpty()){
             Graph g = q.poll();
             int dx = g.x;
@@ -51,10 +51,9 @@ public class boj_2178 {
                 if(isRange(mx,my)){
                     continue;
                 }
-                if(map[mx][my] == 1 && isVisited[mx][my] == false) {
-                    answer++;
+                if(map[mx][my] == 1 && isVisited[mx][my] == 0) {
                     q.add(new Graph(mx, my));
-                    isVisited[mx][my] = true;
+                    isVisited[mx][my] = isVisited[dx][dy]+1;
                 }
 
             }
