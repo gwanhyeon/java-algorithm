@@ -22,7 +22,13 @@ import java.util.StringTokenizer;
  즉,
  A[D] = A[D-1] + A[D-2]
  B[D] = B[D-1] + B[D-2]
+
+ 3A+5B = 41
+
+ 5B = 41-3A
  */
+
+
 
 public class boj_2502_2 {
     static int MAX = 35;
@@ -46,16 +52,16 @@ public class boj_2502_2 {
         for(int i=3; i<=D; i++){
             A[i] = A[i-1] + A[i-2];
             B[i] = B[i-1] + B[i-2];
+            System.out.println(A[i] + " " + B[i]);
         }
-
         for(int i=1; i<=K; i++){
-            int A = K-(A[D] * i);
-            if(A % B[D] == 0){
-                System.out.print(i + " " + (A/B[D]));
+            int divide = K-(A[D] * i);
+
+            if(divide % B[D] == 0){
+                System.out.println(divide);
+//                System.out.print(divide + "\n" + (A[2] + B[2]) + "\n");
                 return;
             }
-
         }
-
     }
 }
