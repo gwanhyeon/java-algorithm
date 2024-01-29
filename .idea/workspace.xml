@@ -69,6 +69,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.boj_1260.executor": "Debug",
     "Application.boj_1927.executor": "Debug",
     "Application.boj_1966.executor": "Debug",
     "Application.boj_2502.executor": "Run",
@@ -88,7 +89,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_1966">
+  <component name="RunManager" selected="Application.boj_1260">
+    <configuration name="boj_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1260" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024.baekjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="boj_1927" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1927" />
       <module name="algorithm.main" />
@@ -104,19 +118,6 @@
     </configuration>
     <configuration name="boj_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1966" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2024.baekjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="boj_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2178" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -160,19 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.boj_1260" />
       <item itemvalue="Application.boj_1927" />
       <item itemvalue="Application.boj_1966" />
       <item itemvalue="Application.boj_2502_2" />
-      <item itemvalue="Application.boj_2178" />
       <item itemvalue="Application.boj_2502" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1260" />
         <item itemvalue="Application.boj_1966" />
         <item itemvalue="Application.boj_1927" />
         <item itemvalue="Application.boj_2502_2" />
         <item itemvalue="Application.boj_2502" />
-        <item itemvalue="Application.boj_2178" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,8 @@
       <workItem from="1691885462759" duration="10230000" />
       <workItem from="1703935334583" duration="82478000" />
       <workItem from="1706365744062" duration="253000" />
-      <workItem from="1706366000286" duration="14352000" />
+      <workItem from="1706366000286" duration="14767000" />
+      <workItem from="1706538980698" duration="1091000" />
     </task>
     <servers />
   </component>
