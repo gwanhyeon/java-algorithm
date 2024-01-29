@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +72,7 @@
     "Application.boj_1966.executor": "Debug",
     "Application.boj_2502.executor": "Run",
     "Application.boj_2502_2.executor": "Debug",
+    "Application.boj_2606.executor": "Debug",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -89,7 +88,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_1260">
+  <component name="RunManager" selected="Application.boj_2606">
     <configuration name="boj_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1260" />
       <module name="algorithm.main" />
@@ -129,24 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2502" />
-      <module name="java-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2024.baekjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="boj_2502_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2502_2" />
       <module name="algorithm.main" />
@@ -160,20 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2606" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024.baekjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.boj_1260" />
+      <item itemvalue="Application.boj_2606" />
       <item itemvalue="Application.boj_1927" />
       <item itemvalue="Application.boj_1966" />
       <item itemvalue="Application.boj_2502_2" />
-      <item itemvalue="Application.boj_2502" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_2606" />
         <item itemvalue="Application.boj_1260" />
         <item itemvalue="Application.boj_1966" />
         <item itemvalue="Application.boj_1927" />
         <item itemvalue="Application.boj_2502_2" />
-        <item itemvalue="Application.boj_2502" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +195,7 @@
       <workItem from="1703935334583" duration="82478000" />
       <workItem from="1706365744062" duration="253000" />
       <workItem from="1706366000286" duration="14767000" />
-      <workItem from="1706538980698" duration="1091000" />
+      <workItem from="1706538980698" duration="2016000" />
     </task>
     <servers />
   </component>
