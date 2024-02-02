@@ -28,16 +28,13 @@ public class boj_2606 {
             graphList.get(x).add(y);
             graphList.get(y).add(x);
         }
-
         bfs(1);
-
         int answer = 0;
         for(int i=2; i<n+1; i++){
             if(isVisited[i]){
                 answer++;
             }
         }
-        System.out.println(answer);
     }
 
     private static void bfs(int v) {
