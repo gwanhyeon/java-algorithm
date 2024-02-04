@@ -68,14 +68,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.boj_1620.executor": "Run",
     "Application.boj_2164.executor": "Debug",
     "Application.boj_2776.executor": "Debug",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_2776">
-    <configuration name="boj_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1260" />
+  <component name="RunManager" selected="Application.boj_1620">
+    <configuration name="boj_1620" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1620" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -140,19 +141,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.boj_1620" />
       <item itemvalue="Application.boj_2776" />
-      <item itemvalue="Application.boj_1260" />
       <item itemvalue="Application.boj_2606" />
       <item itemvalue="Application.boj_2161" />
       <item itemvalue="Application.boj_2164" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1620" />
         <item itemvalue="Application.boj_2776" />
         <item itemvalue="Application.boj_2164" />
         <item itemvalue="Application.boj_2161" />
         <item itemvalue="Application.boj_2606" />
-        <item itemvalue="Application.boj_1260" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,7 @@
       <workItem from="1703935334583" duration="82478000" />
       <workItem from="1706365744062" duration="253000" />
       <workItem from="1706366000286" duration="14767000" />
-      <workItem from="1706538980698" duration="12345000" />
+      <workItem from="1706538980698" duration="14572000" />
     </task>
     <servers />
   </component>

@@ -34,6 +34,7 @@ public class boj_2776 {
                     bw.write("0\n");
                 }
             }
+
         }
         bw.flush();
         bw.close();
