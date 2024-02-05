@@ -9,8 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_2776.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_2776.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_2776.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_2776.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1620.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1620.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +70,11 @@
     "Application.boj_1620.executor": "Run",
     "Application.boj_2164.executor": "Debug",
     "Application.boj_2776.executor": "Debug",
+    "Application.boj_5347.executor": "Run",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_1620">
+  <component name="RunManager" selected="Application.boj_5347">
     <configuration name="boj_1620" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1620" />
       <module name="algorithm.main" />
@@ -114,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2606" />
+    <configuration name="boj_2776" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2776" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2776" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2776" />
+    <configuration name="boj_5347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_5347" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -143,17 +143,17 @@
     <list>
       <item itemvalue="Application.boj_1620" />
       <item itemvalue="Application.boj_2776" />
-      <item itemvalue="Application.boj_2606" />
+      <item itemvalue="Application.boj_5347" />
       <item itemvalue="Application.boj_2161" />
       <item itemvalue="Application.boj_2164" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_5347" />
         <item itemvalue="Application.boj_1620" />
         <item itemvalue="Application.boj_2776" />
         <item itemvalue="Application.boj_2164" />
         <item itemvalue="Application.boj_2161" />
-        <item itemvalue="Application.boj_2606" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,7 @@
       <workItem from="1703935334583" duration="82478000" />
       <workItem from="1706365744062" duration="253000" />
       <workItem from="1706366000286" duration="14767000" />
-      <workItem from="1706538980698" duration="14572000" />
+      <workItem from="1706538980698" duration="16859000" />
     </task>
     <servers />
   </component>
