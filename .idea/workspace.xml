@@ -9,7 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1620.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1620.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1966$Docs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1966.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1966.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_5347.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_5347.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_1966.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_1966.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_5347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_5347.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2RZ8L4lXuPynM8yNndOjBfwSK5H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,13 +75,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.boj_1620.executor": "Run",
+    "Application.boj_1966.executor": "Debug",
     "Application.boj_2164.executor": "Debug",
     "Application.boj_2776.executor": "Debug",
     "Application.boj_5347.executor": "Run",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_5347">
+  <component name="RunManager" selected="Application.boj_1966">
     <configuration name="boj_1620" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1620" />
       <module name="algorithm.main" />
@@ -88,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2161" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2161" />
+    <configuration name="boj_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1966" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -144,16 +158,16 @@
       <item itemvalue="Application.boj_1620" />
       <item itemvalue="Application.boj_2776" />
       <item itemvalue="Application.boj_5347" />
-      <item itemvalue="Application.boj_2161" />
+      <item itemvalue="Application.boj_1966" />
       <item itemvalue="Application.boj_2164" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1966" />
         <item itemvalue="Application.boj_5347" />
         <item itemvalue="Application.boj_1620" />
         <item itemvalue="Application.boj_2776" />
         <item itemvalue="Application.boj_2164" />
-        <item itemvalue="Application.boj_2161" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +195,8 @@
       <workItem from="1703935334583" duration="82478000" />
       <workItem from="1706365744062" duration="253000" />
       <workItem from="1706366000286" duration="14767000" />
-      <workItem from="1706538980698" duration="16859000" />
+      <workItem from="1706538980698" duration="21417000" />
+      <workItem from="1707835489800" duration="311000" />
     </task>
     <servers />
   </component>

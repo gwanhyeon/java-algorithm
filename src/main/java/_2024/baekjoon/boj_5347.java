@@ -16,17 +16,17 @@ public class boj_5347 {
             long x = Long.parseLong(st.nextToken());
             long y = Long.parseLong(st.nextToken());
 
-            long gcd = gcd(x,y);
+            long gcd = getGcd(x,y);
             long lcm = getLcm(gcd, x,y);
             System.out.println(lcm);
         }
     }
 
-    private static long gcd(long n, long m) {
+    private static long getGcd(long n, long m) {
         if(m == 0){
             return n;
         }
-        return gcd(m, n%m);
+        return getGcd(m, n%m);
     }
     private static long getLcm(long gcd, long n, long m){
         return gcd * (n / gcd) * (m / gcd);
