@@ -33,7 +33,7 @@ public class boj_2003 {
             }else if(end == n){
                 break;
             }
-            // 2. 더한값이 m 과 같으면
+            // 2. 더한값이 m보다 작으면
             else {
                 sum += arrList.get(end);
                 end++;
