@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_2559.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_2559.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.boj_11441.executor": "Run",
+    "Application.boj_11441.executor": "Debug",
+    "Application.boj_1316.executor": "Run",
     "Application.boj_1620.executor": "Run",
     "Application.boj_1966.executor": "Debug",
     "Application.boj_2003.executor": "Debug",
@@ -78,6 +78,7 @@
     "Application.boj_2559.executor": "Debug",
     "Application.boj_2776.executor": "Debug",
     "Application.boj_5347.executor": "Run",
+    "Application.더맵게.executor": "Run",
     "Application.정규표현식.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -88,13 +89,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_11441">
-    <configuration name="정규표현식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.정규표현식" />
+  <component name="RunManager" selected="Application.boj_1316">
+    <configuration name="더맵게" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.programmers_highscore.더맵게" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2024.baekjoon.*" />
+          <option name="PATTERN" value="_2024.programmers_highscore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1966" />
+    <configuration name="boj_1316" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1316" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -156,18 +157,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.boj_11441" />
+      <item itemvalue="Application.boj_1316" />
       <item itemvalue="Application.boj_2559" />
+      <item itemvalue="Application.더맵게" />
       <item itemvalue="Application.boj_2003" />
-      <item itemvalue="Application.정규표현식" />
-      <item itemvalue="Application.boj_1966" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1316" />
+        <item itemvalue="Application.더맵게" />
         <item itemvalue="Application.boj_11441" />
         <item itemvalue="Application.boj_2559" />
         <item itemvalue="Application.boj_2003" />
-        <item itemvalue="Application.정규표현식" />
-        <item itemvalue="Application.boj_1966" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,7 @@
       <workItem from="1706538980698" duration="21417000" />
       <workItem from="1707835489800" duration="1239000" />
       <workItem from="1707836939543" duration="9113000" />
-      <workItem from="1710047767117" duration="5462000" />
+      <workItem from="1710047767117" duration="15550000" />
     </task>
     <servers />
   </component>
@@ -249,6 +250,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_2003.java</url>
           <line>33</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_2024/programmers_highscore/더맵게.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
