@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_1978.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_1978.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1978.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_2024/baekjoon/boj_1978.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.boj_10799.executor": "Run",
+    "Application.boj_10870.executor": "Run",
     "Application.boj_11441.executor": "Debug",
     "Application.boj_1316.executor": "Run",
     "Application.boj_1620.executor": "Run",
@@ -91,7 +93,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_1978">
+  <component name="RunManager" selected="Application.boj_10870">
     <configuration name="더맵게" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.programmers_highscore.더맵게" />
       <module name="algorithm.main" />
@@ -118,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_11441" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_11441" />
+    <configuration name="boj_10870" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_10870" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -159,18 +161,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.boj_10799" />
-      <item itemvalue="Application.boj_11441" />
+      <item itemvalue="Application.boj_10870" />
       <item itemvalue="Application.boj_1316" />
       <item itemvalue="Application.boj_1978" />
       <item itemvalue="Application.더맵게" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_10870" />
         <item itemvalue="Application.boj_1978" />
         <item itemvalue="Application.boj_10799" />
         <item itemvalue="Application.boj_1316" />
         <item itemvalue="Application.더맵게" />
-        <item itemvalue="Application.boj_11441" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +203,7 @@
       <workItem from="1706538980698" duration="21417000" />
       <workItem from="1707835489800" duration="1239000" />
       <workItem from="1707836939543" duration="9113000" />
-      <workItem from="1710047767117" duration="23853000" />
+      <workItem from="1710047767117" duration="25281000" />
     </task>
     <servers />
   </component>
