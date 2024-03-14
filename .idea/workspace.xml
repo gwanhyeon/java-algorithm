@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bdaa64-64a8-4b15-bac4-db5d7a64e0e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_10799.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024/baekjoon/boj_10799.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
     "Application.boj_1316.executor": "Run",
     "Application.boj_1620.executor": "Run",
     "Application.boj_1966.executor": "Debug",
+    "Application.boj_1978.executor": "Run",
     "Application.boj_2003.executor": "Debug",
     "Application.boj_2164.executor": "Debug",
     "Application.boj_2559.executor": "Debug",
@@ -90,7 +92,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_10799">
+  <component name="RunManager" selected="Application.boj_1978">
     <configuration name="더맵게" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2024.programmers_highscore.더맵게" />
       <module name="algorithm.main" />
@@ -143,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2559" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2559" />
+    <configuration name="boj_1978" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1978" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -160,16 +162,16 @@
       <item itemvalue="Application.boj_10799" />
       <item itemvalue="Application.boj_11441" />
       <item itemvalue="Application.boj_1316" />
-      <item itemvalue="Application.boj_2559" />
+      <item itemvalue="Application.boj_1978" />
       <item itemvalue="Application.더맵게" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj_1978" />
         <item itemvalue="Application.boj_10799" />
         <item itemvalue="Application.boj_1316" />
         <item itemvalue="Application.더맵게" />
         <item itemvalue="Application.boj_11441" />
-        <item itemvalue="Application.boj_2559" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +202,7 @@
       <workItem from="1706538980698" duration="21417000" />
       <workItem from="1707835489800" duration="1239000" />
       <workItem from="1707836939543" duration="9113000" />
-      <workItem from="1710047767117" duration="20313000" />
+      <workItem from="1710047767117" duration="23157000" />
     </task>
     <servers />
   </component>

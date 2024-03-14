@@ -28,7 +28,5 @@ public class boj_10799 {
             }
         }
         System.out.println(answer);
-
-
     }
 }
