@@ -82,6 +82,7 @@
     "Application.boj_2559.executor": "Debug",
     "Application.boj_2776.executor": "Debug",
     "Application.boj_5347.executor": "Run",
+    "Application.softeer_8단변속기.executor": "Run",
     "Application.test.executor": "Run",
     "Application.더맵게.executor": "Run",
     "Application.슬라이딩윈도우.executor": "Run",
@@ -95,7 +96,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.boj_2230">
+  <component name="RunManager" selected="Application.softeer_8단변속기">
     <configuration name="슬라이딩윈도우" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="jbr-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -129,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_1978" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_1978" />
+    <configuration name="boj_2230" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2230" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj_2230" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.boj_2230" />
+    <configuration name="softeer_8단변속기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024.baekjoon.softeer_8단변속기" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -170,18 +171,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.boj_2230" />
+      <item itemvalue="Application.softeer_8단변속기" />
       <item itemvalue="Application.슬라이딩윈도우" />
       <item itemvalue="Application.boj_10870" />
-      <item itemvalue="Application.boj_1978" />
       <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.softeer_8단변속기" />
         <item itemvalue="Application.boj_2230" />
         <item itemvalue="Application.슬라이딩윈도우" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.boj_10870" />
-        <item itemvalue="Application.boj_1978" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,7 @@
       <workItem from="1707835489800" duration="1239000" />
       <workItem from="1707836939543" duration="9113000" />
       <workItem from="1710047767117" duration="28287000" />
-      <workItem from="1710681938087" duration="6860000" />
+      <workItem from="1710681938087" duration="9767000" />
     </task>
     <servers />
   </component>
